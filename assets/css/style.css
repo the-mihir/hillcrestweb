@@ -4,6 +4,7 @@
   --primary-color: #713d6e;
   --secondary-color: rgb(0, 0, 0);
   --bg-secondary-color: rgb(201, 215, 241);
+  --gradient-6: linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
 }
 
 * {
@@ -363,9 +364,15 @@ Root Related Style End
 /* *************************
 Blog Section Style Here
  *************************** */
-.blog_news_container {
-  background-color: #f3f4f8;
+.blog__bg {
   background-image: url('../images/leaf__shape.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.blog_news_container {
+  background: var(--gradient-6);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
