@@ -24,7 +24,6 @@
   }
   .others_resources .row {
     flex-wrap: wrap;
-    
   }
   .course_container .staff_boxes .row {
     flex-wrap: wrap;
@@ -125,13 +124,38 @@
     right: 0;
   }
   .top_nav a {
-    margin: 0px 0px;
+    margin: 0px 10px;
   }
   .offcanvas {
     background-image: linear-gradient(180deg, #a94fa4, #713d6e) !important;
   }
   .blogs img {
     height: 200px;
+  }
+  .filter_tabs .border-right {
+    border-right: none !important;
+    border-bottom: 1px solid #6c34698c !important;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .filter_tabs .flex-column {
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+  }
+  .filter_tabs {
+    flex-direction: column;
+  }
+  .filter_tabs .nav-link {
+    font-size: 10px !important;
+    margin: 0;
+    padding: 10px 10px !important;
+  }
+  .text-nowrap {
+    white-space: wrap !important;
+  }
+  .contact p {
+    display: flex;
+    flex-direction: column;
   }
 }
 

@@ -107,6 +107,13 @@ h6 {
 select::after {
   right: 40px !important;
 }
+body a{
+  color: var(--primary-color);
+  transition: .3s all;
+}
+body a:hover{
+  color: #05056e;
+}
 
 /************** Navbar *******************/
 .top_nav,
@@ -250,7 +257,7 @@ select::after {
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
   color: var(--bs-nav-pills-link-active-color);
   background-color: var(--primary-color) !important;
 }
@@ -325,7 +332,6 @@ Root Related Style End
   background-image: url("../images/Hero_bg-6.jpg");
 }
 
-
 .d-hide {
   visibility: hidden;
   transition: 0.5s all;
@@ -385,7 +391,8 @@ Blog Section Style Here
 .blog,
 .blogTwo,
 .blogThree {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 /* *************************
@@ -404,7 +411,8 @@ Blog Section Style Here
 }
 
 .student_resource_container .swiper-slide img {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 /**************************
@@ -674,23 +682,40 @@ footer a {
  Footer Style End 
  ********************************************/
 
- /*********************************************************************************************************************
+/*********************************************************************************************************************
                                                        Overview Page All CSS Here
  ********************************************************************************************************************* */
 
 /***********************************
   Hero Container Style Here 
   ************************************/
-.overview_hero_container .home_slide1,
-.home_slide2,
-.home_slide3,
-.home_slide4,
-.home_slide5,
-.home_slide6,
-.home_slide7{
-height: auto !important;
-padding: 200px !important;
-} 
+.overview_hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /**********************************
   Hero Container Style End 
   **********************************/
+
+/***************************************
+ Gallery Section Style Here 
+ *****************************************/
+.gallery_container {
+  background-color: #f2f2f2;
+  padding: 50px 0px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  grid-gap: 30px;
+}
+.gallery img {
+  width: 100%;
+}
+/************************************
+ Gallery Section Style End 
+ **************************************/
