@@ -104,6 +104,11 @@ h6 {
   margin-bottom: 80px;
 }
 
+.p-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 select::after {
   right: 40px !important;
 }
@@ -359,7 +364,11 @@ Root Related Style End
 Blog Section Style Here
  *************************** */
 .blog_news_container {
-  background-color: #f2f2f2;
+  background-color: #f3f4f8;
+  background-image: url('../images/leaf__shape.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .next_prev {
@@ -385,7 +394,7 @@ Blog Section Style Here
 .blog,
 .blogTwo,
 .blogThree {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* *************************
@@ -405,6 +414,7 @@ Blog Section Style Here
 
 .student_resource_container .swiper-slide img {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
 }
 
 /**************************
@@ -646,7 +656,7 @@ select:focus {
 footer {
   background-image: linear-gradient(180deg, #a3539f, #8c3d88);
   color: white;
-  padding: 50px 0px 10px 0px;
+  padding: 300px 0px 10px 0px;
 }
 
 footer p {
