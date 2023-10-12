@@ -719,3 +719,43 @@ footer a {
 /************************************
  Gallery Section Style End 
  **************************************/
+
+
+
+
+ /**************************************************************************************************************************
+                                             Small Learning Community (SLC) Overview 
+  **************************************************************************************************************************/
+
+  /*****************************
+   SLC Hero Section Style here 
+   ****************************/
+  .slc_hero_container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-4.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  /*******************************
+   SLC Hero Section Style end 
+   ******************************/
+
+   /********************************
+     Resources Section Style Here 
+     ******************************/
+     .resources_item{
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+     }
+     .resources_content ul{
+      list-style: none;
+     }
+     .resources_content ul li{
+      display: flex;
+      gap: 5px;
+     }
+   /********************************
+     Resources Section Style End 
+   ********************************/
