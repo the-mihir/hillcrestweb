@@ -24,14 +24,17 @@ html {
 body::-webkit-scrollbar {
   width: 8px;
 }
+
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
   font-family: "Montserrat", sans-serif;
 }
+
 body::-webkit-scrollbar-track {
   background: linear-gradient(180deg, #a3539f, #8c3d88);
 }
+
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG);
   border-radius: 6px;
@@ -41,14 +44,17 @@ body::-webkit-scrollbar-thumb {
 .p_bg_color {
   background-color: var(--primary-color);
 }
+
 .p_color {
   color: var(--primary-color);
 }
+
 .divider {
   width: 100%;
   height: 2px;
   background-color: var(--primary-color);
 }
+
 h1,
 h2,
 h3,
@@ -57,6 +63,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
+
 .primary_btn {
   text-decoration: none;
   color: white;
@@ -72,26 +79,32 @@ h6 {
   font-family: poppins;
   transition: 0.3s all;
 }
+
 .primary_btn:hover {
   background-color: #6c3469;
   animation: pop 0.3s linear 1;
 }
+
 @keyframes pop {
   50% {
     transform: scale(1.1);
   }
 }
+
 .border {
   border: 1px solid #6c34698c !important;
 }
+
 .border-right {
   border-right: 1px solid #6c34698c !important;
 }
+
 .m-80 {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-select::after{
+
+select::after {
   right: 40px !important;
 }
 
@@ -100,9 +113,11 @@ select::after{
 .dropdown-menu {
   background-image: linear-gradient(180deg, #a3539f, #8c3d88);
 }
+
 .top_nav a {
   margin: 0px 10px;
 }
+
 .navbar {
   position: fixed;
   top: 30px;
@@ -111,6 +126,7 @@ select::after{
   padding: 30px 0px;
   transition: 0.3s all;
 }
+
 .sticky {
   position: fixed !important;
   top: 0 !important;
@@ -138,6 +154,7 @@ select::after{
   transition: 0.3s all;
   border-radius: 10px;
 }
+
 .nav-link::before {
   position: absolute;
   content: "";
@@ -149,15 +166,18 @@ select::after{
   transition: 0.3s all;
   border-radius: 10px;
 }
+
 .nav-link:hover::before {
   width: 100%;
 }
+
 .dropdown-item {
   position: relative;
   width: fit-content;
   padding: 5px 0px !important;
   margin-left: 10px;
 }
+
 .dropdown-item::before {
   position: absolute;
   content: "";
@@ -169,21 +189,27 @@ select::after{
   transition: 0.3s all;
   border-radius: 10px;
 }
+
 .dropdown-item:hover::before {
   width: 100%;
 }
+
 .dropdown-item:hover {
   background-color: transparent !important;
 }
+
 .nav-item:hover .dropdown-menu {
   display: unset !important;
 }
+
 .dropdown-toggle::after {
   transition: 0.3s all;
 }
+
 .dropdown-toggle:hover::after {
   transform: scaleY(-1);
 }
+
 #mega_menu {
   width: 100% !important;
   position: fixed;
@@ -192,38 +218,47 @@ select::after{
   height: auto;
   margin: auto auto;
 }
+
 .mega_menu .nav-item {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.125) !important;
 }
+
 .mega_menu .nav-item .nav-link {
   font-size: 14px;
   white-space: nowrap;
 }
+
 .navbar-toggler {
   background-color: var(--primary-color) !important;
   padding: 10px 10px !important;
   margin-right: auto;
 }
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
 .nav-pills .nav-link::before {
   content: "";
   display: none;
 }
+
 .nav-pills .nav-link {
   padding: 10px 20px !important;
   color: var(--primary-color);
   white-space: nowrap;
 }
+
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
   color: var(--bs-nav-pills-link-active-color);
   background-color: var(--primary-color) !important;
 }
+
 .navbar-toggler-icon {
   background-image: none !important;
 }
+
 .offcanvas-header .btn-close {
   background-image: none !important;
 }
@@ -240,6 +275,7 @@ Root Related Style End
 .home_slide {
   position: relative;
 }
+
 .home_slide::after {
   content: "";
   position: absolute;
@@ -250,6 +286,7 @@ Root Related Style End
   z-index: -2;
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413));
 }
+
 .home_slide1,
 .home_slide2,
 .home_slide3,
@@ -265,31 +302,36 @@ Root Related Style End
 }
 
 .home_slide1 {
-  background-image: url("images/home\ slider\ 1.jpg");
+  background-image: url("../images/Hero_bg-1.jpg");
 }
+
 .home_slide2 {
-  background-image: url("images/home\ slider\ 2.jpg");
+  background-image: url("../images/Hero_bg-2.jpg");
 }
+
 .home_slide3 {
-  background-image: url("images/home\ slider\ 3.jpg");
+  background-image: url("../images/Hero_bg-3.jpg");
 }
+
 .home_slide4 {
-  background-image: url("images/home\ slider\ 4.jpg");
+  background-image: url("../images/Hero_bg-4.jpg");
 }
+
 .home_slide5 {
-  background-image: url("images/home\ slider\ 5.jpg");
+  background-image: url("../images/Hero_bg-5.jpg");
 }
+
 .home_slide6 {
-  background-image: url("images/home\ slider\ 6.png");
+  background-image: url("../images/Hero_bg-6.jpg");
 }
-.home_slide7 {
-  background-image: url("images/home\ slider\ 7.jpg");
-}
+
+
 .d-hide {
   visibility: hidden;
   transition: 0.5s all;
   transition-delay: 0.5s;
 }
+
 .hero_sliderr:hover .d-hide {
   visibility: visible;
 }
@@ -304,9 +346,11 @@ Root Related Style End
 .tab-content ul {
   list-style: none;
 }
+
 .tab-content ul li i {
   color: #8c3d88;
 }
+
 /****************************************
    School Overview Section Style End
    **************************************/
@@ -317,27 +361,33 @@ Blog Section Style Here
 .blog_news_container {
   background-color: #f2f2f2;
 }
+
 .next_prev {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .blogs p {
   font-size: 15px;
 }
+
 .blog_head h5 {
   line-height: 20px;
   font-size: 15px !important;
 }
+
 .blog_news_container .swiper-slide {
   overflow-y: scroll;
   height: 330px;
 }
+
 .blog,
 .blogTwo,
 .blogThree {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+
 /* *************************
  Blog Section Style End
  *************************** */
@@ -348,12 +398,15 @@ Blog Section Style Here
 .student_resource_container {
   padding: 100px 0px;
 }
-.student_resource_container .swiper-slide{
+
+.student_resource_container .swiper-slide {
   padding: 10px;
 }
-.student_resource_container .swiper-slide img{
+
+.student_resource_container .swiper-slide img {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+
 /**************************
  Others Resources 
  *************************/
@@ -361,14 +414,17 @@ Blog Section Style Here
   font-size: 16px;
   margin-bottom: 30px;
 }
+
 .others_resources img {
   width: 150px;
   border-radius: 7px;
 }
+
 .others_resources .row {
   flex-wrap: nowrap;
   justify-content: center !important;
 }
+
 .resource_box {
   text-align: center;
   padding: 30px 10px;
@@ -378,9 +434,11 @@ Blog Section Style Here
   z-index: 75;
   border-radius: 10px;
 }
+
 .resource_box:hover {
   color: white;
 }
+
 .resource_box:after {
   content: "";
   width: 100%;
@@ -393,6 +451,7 @@ Blog Section Style Here
   transition: 0.4s all;
   border-radius: 10px;
 }
+
 .resource_box:hover::after {
   height: 100%;
   top: 0;
@@ -416,7 +475,7 @@ Blog Section Style Here
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("images/Apply\ Addmission\ Background.jpg");
+  background-image: url("../images/apply_bg.jpg");
 }
 
 /***************************************
@@ -429,6 +488,7 @@ Blog Section Style Here
 .align-items-start {
   align-items: start !important;
 }
+
 .time_location {
   display: flex;
   align-items: center;
@@ -460,6 +520,7 @@ Blog Section Style Here
   background-image: linear-gradient(#202052bb, #202052b8),
     url("images/home\ slider\ 1.jpg");
 }
+
 .course_container input,
 select {
   width: 100%;
@@ -470,31 +531,38 @@ select {
   margin: 10px 0px;
   border-radius: 10px;
 }
+
 .course_container .primary_btn {
   padding: 15px 20px;
   border-radius: 10px;
   margin: 10px 0px;
 }
+
 input,
 select:focus {
   outline: none;
   box-shadow: none;
 }
+
 .course_container input::placeholder {
   color: rgba(255, 255, 255, 0.515);
 }
+
 .staff_box span {
   font-size: 12px;
   display: block;
 }
+
 .staff_box {
   transition: 0.3s all;
   border-radius: 5px;
 }
+
 .staff_box:hover {
   background-color: var(--primary-color) !important;
   color: white;
 }
+
 .course_container .staff_boxes .row {
   flex-wrap: nowrap;
 }
@@ -516,12 +584,14 @@ select:focus {
   background-image: linear-gradient(#6c3469eb, #6c3469eb),
     url("images/home\ slider\ 5.jpg");
 }
+
 .quick_links a {
   transition: 0.3s all;
   font-family: "Playfair Display", serif;
   font-size: 18px;
   font-weight: 500;
 }
+
 .quick_links a:hover {
   color: rgb(201, 192, 192) !important;
 }
@@ -541,6 +611,7 @@ select:focus {
   background-size: cover;
   padding: 100px 0px;
 }
+
 .countdown_container li {
   display: inline-block;
   font-size: 16px;
@@ -548,19 +619,23 @@ select:focus {
   padding: 1em;
   text-transform: uppercase;
 }
+
 .countdown_container li span {
   display: block;
   font-size: 20px;
   font-weight: bold;
 }
+
 .emoji {
   display: none;
   padding: 1rem;
 }
+
 .emoji span {
   font-size: 4rem;
   padding: 0 0.5rem;
 }
+
 /*******************************
  CTA Button 
  ********************************/
@@ -573,9 +648,11 @@ footer {
   color: white;
   padding: 50px 0px 10px 0px;
 }
+
 footer p {
   margin-bottom: 0;
 }
+
 footer a {
   display: block;
   text-decoration: none;
@@ -584,12 +661,15 @@ footer a {
   transition: 0.3s all;
   width: fit-content;
 }
+
 .Usefull_links a {
   margin: 10px 0px;
 }
+
 .Usefull_links a:hover {
   margin-left: 5px;
 }
+
 /********************************************
  Footer Style End 
  ********************************************/
