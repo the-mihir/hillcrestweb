@@ -107,11 +107,11 @@ h6 {
 select::after {
   right: 40px !important;
 }
-body a{
+body a {
   color: var(--primary-color);
-  transition: .3s all;
+  transition: 0.3s all;
 }
-body a:hover{
+body a:hover {
   color: #05056e;
 }
 
@@ -705,61 +705,97 @@ footer a {
  Gallery Section Style Here 
  *****************************************/
 
-
-
 /************************************
  Gallery Section Style End 
  **************************************/
 
-
-
-
- /**************************************************************************************************************************
+/**************************************************************************************************************************
                                              Small Learning Community (SLC) Overview 
   **************************************************************************************************************************/
 
-  /*****************************
+/*****************************
    SLC Hero Section Style here 
    ****************************/
-  .slc_hero_container{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+.slc_hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-4.jpg");
   padding: 150px 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
-  /*******************************
+}
+/*******************************
    SLC Hero Section Style end 
    ******************************/
 
-   /********************************
+/********************************
      Resources Section Style Here 
      ******************************/
-     .resources_box{
-      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-     }
-    
-   /********************************
+.resources_box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/********************************
      Resources Section Style End 
    ********************************/
 
-
-   /**************************************************************************************************************
+/**************************************************************************************************************
                                                  College And Career Offices Page All Css Here
    ************************************************************************************************************** */
 /*******************************
  CCO Hero Section Style Here 
  ********************************/
- .CCO_hero_container{
+.CCO_hero_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
-  url("../images/Hero_bg-3.jpg");
-padding: 150px 0px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
- }
+    url("../images/Hero_bg-3.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*******************************
  CCO Hero Section Style End
 ***************************** */
+
+/* ************************************************************************************************************
+                                   Social And Emotional Learning Page All CSS Here
+************************************************************************************************************** */
+/********************************
+ SEL Hero Section Style Here
+****************************** */
+.sel_conatainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-2.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/********************************
+ SEL Hero Section Style End
+****************************** */
+
+/***********************
+  About Section Style Here 
+  ***************************/
+  .sel_about_container{
+    padding: 80px 0px;
+    background-color: #F2F2F2;
+  }
+  .sel_about_btns a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #DFDFDF;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .sel_about_btns a:hover{
+    background-color: #c6c4c4;
+  }
+/***********************
+  About Section Style End 
+  ***************************/

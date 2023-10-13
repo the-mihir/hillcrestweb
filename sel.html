@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Social And Emotional Learning (SEL)</title>
+    <link
+      rel="shortcut icon"
+      href="Assets/images/Main Logo.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top_nav py-2 sm-d-none">
+        <div class="container d-flex">
+          <div class="d-flex align-items-center gap-3">
+            <a
+              class="d-flex align-items-center text-decoration-none gap-2 text-white"
+              href="mailto:hillcrest@gmail.com"
+              ><span><i class="fa-regular fa-envelope"></i></span>
+              <span>hillcrest@gmail.com</span></a
+            >
+            <a
+              class="d-flex align-items-center text-decoration-none gap-2 text-white"
+              href="tel:(718) 658-5407"
+              ><span><i class="fa-solid fa-phone-volume"></i></span
+              ><span>(718) 658-5407</span></a
+            >
+          </div>
+          <div class="d-flex align-items-center ms-auto">
+            <span class="text-white">Follow Us On -</span>
+            <a
+              class="d-flex align-items-center text-decoration-none gap-2 text-white"
+              href="https://twitter.com/HillcrestHSNYC"
+              ><span><i class="fa-brands fa-x-twitter"></i></span
+            ></a>
+            <a
+              class="d-flex align-items-center text-decoration-none gap-2 text-white"
+              href="https://twitter.com/HillcrestHSNYC"
+              ><span><i class="fa-brands fa-facebook-f"></i></span
+            ></a>
+            <a
+              class="d-flex align-items-center text-decoration-none gap-2 text-white"
+              href="https://twitter.com/HillcrestHSNYC"
+              ><span><i class="fa-brands fa-instagram"></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <nav id="navbar" class="navbar navbar-expand-lg align-items-center">
+        <div class="container position-relative">
+          <a class="text-decoration-none text-white" href="#"
+            ><img src="Assets/images/Main Logo.png" alt="" width="50px" />
+            Hillcrest High School
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fa-solid fa-bars fs-1 text-white"></i
+            ></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa-solid fa-xmark text-white fs-3"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white active_link"
+                    aria-current="page"
+                    href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    ABOUT US
+                  </a>
+                  <ul class="dropdown-menu p_bg_color pe-3">
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >High School Overview</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >Small Learning Community (SLC) Overview</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >Faculty & Staff Directory</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >Review Our Data</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >CALENDER</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    GUIDANCE DEPARTMENT
+                  </a>
+                  <ul class="dropdown-menu p_bg_color pe-3">
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >Guidance Resources</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >Mental Health Resources</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >College And Career Office</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white mt-2" href="#"
+                        >Recruitment</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    MORE
+                  </a>
+                  <ul class="dropdown-menu p_bg_color mega_menu" id="mega_menu">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                        <h6 class="text-white fw-bold">For Students</h6>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Student AP Course Application Form</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Covid-19 Student Reporting</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Morning Announcements</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Bell Schedule</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Calender</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Marking Periods 2023-2024</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Clubs</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Sports</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >HillCrest Library</a
+                          >
+                        </li>
+                        <li class="nav-item border-none">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Students Resourch</a
+                          >
+                        </li>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                        <h6 class="text-white fw-bold">For Families</h6>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Calender</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Family Income Survey From / Lunch Applications</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Family Resourch</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >High School Graduation Requierments</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >PTA/SLT Information</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Student And Familes School Handbook</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Hillcrest Spectator Policy</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Hillcrest Grading Policy</a
+                          >
+                        </li>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                        <h6 class="text-white fw-bold">For Staff</h6>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Calender</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Forms for Staff</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Tech Instructional Clips</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Teacher InfoHub</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Admin InfoHub</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Hillcrest Grading Policy</a
+                          >
+                        </li>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                        <h6 class="text-white fw-bold">More Pages</h6>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Social & Emotional Learning (SEL)</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >School Newspaper</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Hillcrest In the News</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Twitter</a
+                          >
+                        </li>
+                        <h6 class="text-white fw-bold mt-2">
+                          College Info Now
+                        </h6>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link text-white"
+                            aria-current="page"
+                            href="#"
+                            >Courses</a
+                          >
+                        </li>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!------------------------------
+         Hero Section Start
+    ----------------------------- -->
+      <section class="sel_conatainer text-white text-center">
+        <div class="container">
+          <h1 class="fw-bold">Social And Emotional Learning (SEL)</h1>
+        </div>
+      </section>
+      <!------------------------------
+         Hero Section End
+    ----------------------------- -->
+
+    <!-----------------------------------------
+         About Section Here
+        ----------------------------------- -->
+        <div class="sel_about_container ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 p-3">
+                        <h5 class="fw-bold">ABOUT SEL AT HILLCREST HIGH SCHOOL</h5>
+                        <div class="divider mb-4"></div>
+                        <p class="fw-bold">2023-2024 SEL Focus</p>
+                        <p>Hillcrest High School will focus on the theme of “believe, belong, and become.” This theme will be embedded  throughout all student and staff support systems via our SLCs and schoolwide initiatives. We will host advisories for all grades from 9th to 12th grade to support our students’ academic and social emotional growth. In addition, our advisory planning team, consisting of students, teachers and staff, will work together to ensure multiple stakeholders have input into our schoolwide SEL programs. Through our Peer Group Connection (PGC)  program, every 9th grader will have a mentor from the upper classes.  As such, we will work to systematically build schoolwide SEL support both inside and outside of the classroom.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 p-3">
+                        <h5 class="fw-bold">SEL RESOURCES FOR PARENTS</h5>
+                        <div class="divider mb-4"></div>
+                        <div class="sel_about_btns">
+                            <a href="#">COVID-19 Resources for Parents</a>
+                            <a href="#">Helping Children Cope with Changes Resulting from COVID-19</a>
+                            <a href="#">NYS Resources for Families</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-----------------------------------------
+         About Section End
+        ----------------------------------- -->
+
+    </main>
+    <!---------------------
+         Footer Here
+         --------------------->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <a href="#"
+              ><img src="Assets/images/Main Logo.png" width="80px" alt=""
+            /></a>
+            <p>
+              Hillcrest is a STEAM (Science, Technology, Engineering, Arts, and
+              Mathematics) school that proudly offers its students a world-class
+              education with a dynamic faculty and challenging curriculum.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 Usefull_links">
+            <h4>Usefull Link</h4>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Calender</a>
+            <a href="#">School Newspaper</a>
+            <a href="#">Guidance Resources</a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 contact">
+            <h4>Contact Us</h4>
+            <p class="d-flex gap-2">
+              Phone:
+              <a class="mb-3" href="tel:(718) 658-5407">(718) 658-5407</a>
+            </p>
+
+            <p class="d-flex gap-2">
+              E-mail:
+              <a class="mb-3" href="mailto:hillcrest@gmail.com"
+                >hillcrest@gmail.com</a
+              >
+            </p>
+            <p class="d-flex gap-2 text-nowrap">
+              Address: <span>160-05 Highland Avenue QUEENS, NY 11432</span>
+            </p>
+          </div>
+        </div>
+        <hr />
+        <span
+          ><small class="d-flex gap-1 justify-content-end Copyright"
+            >Copyright © 2015-2023 <a href="#">eChalk Inc.</a></small
+          ></span
+        >
+      </div>
+    </footer>
+    <!----------------------- 
+        Footer End
+    ----------------------- -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assets/JS/custom.js"></script>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/337002c4cc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
