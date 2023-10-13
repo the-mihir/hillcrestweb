@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./test.css"> -->
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .rbt-btn.btn-gradient:hover {
+            background-color: inherit;
+            background-position: 102% 0;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .text__secction {
+            display: flex;
+            align-items: center;
+            border: 1px solid purple;
+            width: 50%;
+            min-height: 300px;
+            margin: 0px auto;
+        }
+
+        .rbt-btn.btn-gradient {
+            color: var(--color-white);
+            background-size: 300% 100%;
+            background-image: linear-gradient(to right, var(--purpole), var(--primary-color), var(--primary-color), var(--purpole));
+        }
+
+        .rbt-btn {
+            padding: 0 26px;
+            background: var(--color-primary);
+            height: 60px;
+            line-height: 60px;
+            color: var(--color-white);
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            font-weight: 500;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            border-radius: 6px;
+            border: 0 none;
+            outline: none;
+        }
+
+        .btn-text {
+            color: white;
+        }
+
+        .rbt-btn i {
+            padding-left: 6px;
+            display: inline-block;
+            top: 2px;
+            position: relative;
+            font-size: 17px;
+        }
+
+        .radius-round {
+            border-radius: 500px !important;
+        }
+
+        .rbt-btn.hover-icon-reverse .icon-reverse-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rbt-btn:hover.hover-icon-reverse .btn-icon {
+            opacity: 0;
+            transition-delay: 0s;
+            transform: translateX(10px);
+        }
+
+        .rbt-btn.hover-icon-reverse .btn-icon {
+            display: inline-block;
+            transition: opacity 0.4s 0.25s, transform 0.6s 0.25s;
+            transition-timing-function: cubic-bezier(0.1, 0.75, 0.25, 1);
+        }
+
+        .rbt-btn:hover.hover-icon-reverse .btn-icon+.btn-icon {
+            opacity: 1;
+            transform: translateX(0);
+            transition-delay: 0.225s;
+        }
+
+        .rbt-btn.hover-icon-reverse .icon-reverse-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* btn-gradient hover-icon-reverse radius-round */
+        /* icon-reverse-wrapper */
+    </style>
+</head>
+
+<body>
+
+    <div class="text__secction">
+
+
+        <div class="read-more-btn text-start">
+            <a class="rbt-btn btn-gradient hover-icon-reverse radius-round" href="">
+                <div class="icon-reverse-wrapper">
+                    <span class="btn-text">VIEW ALL POST <i class="fa-solid fa-arrow-right"></i></span>
+                    <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                    <span class="btn-icon"><i class="fa-solid fa-arrow-left"></i></span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

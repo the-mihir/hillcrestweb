@@ -4,7 +4,11 @@
   --primary-color: #713d6e;
   --secondary-color: rgb(0, 0, 0);
   --bg-secondary-color: rgb(201, 215, 241);
+  --blue: #2f57ef;
+  --purpole: #b966e7;
   --gradient-6: linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
+  --white: (#ffff);
+
 }
 
 * {
@@ -50,10 +54,25 @@ body::-webkit-scrollbar-thumb {
   color: var(--primary-color);
 }
 
-.divider {
-  width: 100%;
-  height: 2px;
-  background-color: var(--primary-color);
+
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: var(--pu);
+}
+
+a:focus {
+  outline: none;
 }
 
 h1,
@@ -70,7 +89,7 @@ h6 {
   color: white;
   width: fit-content;
   height: fit-content;
-  padding: 20px 50px;
+  padding: 8px 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,6 +132,106 @@ h6 {
 select::after {
   right: 40px !important;
 }
+
+
+
+/* ::::::::::::::::: Cucstom Button :::::::::::::::::  */
+
+.rbt-btn.btn-gradient:hover {
+  background-color: inherit;
+  background-position: 102% 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.text__secction {
+  display: flex;
+  align-items: center;
+  border: 1px solid purple;
+  width: 50%;
+  min-height: 300px;
+  margin: 0px auto;
+}
+
+.rbt-btn.btn-gradient {
+  color: var(--color-white);
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, var(--purpole), var(--primary-color), var(--primary-color), var(--purpole));
+}
+
+.rbt-btn {
+  padding: 0 32px;
+  background: var(--color-primary);
+  height: 50px;
+  line-height: 50px;
+  color: var(--color-white);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition: all 0.4s ease-in-out;
+  border-radius: 6px;
+  border: 0 none;
+  outline: none;
+}
+
+.btn-text {
+  color: white;
+}
+
+.rbt-btn i {
+  padding-left: 6px;
+  display: inline-block;
+  top: 2px;
+  position: relative;
+  font-size: 17px;
+}
+
+.radius-round {
+  border-radius: 500px !important;
+}
+
+.rbt-btn.hover-icon-reverse .icon-reverse-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rbt-btn:hover.hover-icon-reverse .btn-icon {
+  opacity: 0;
+  transition-delay: 0s;
+  transform: translateX(10px);
+}
+
+.rbt-btn.hover-icon-reverse .btn-icon {
+  display: inline-block;
+  transition: opacity 0.4s 0.25s, transform 0.6s 0.25s;
+  transition-timing-function: cubic-bezier(0.1, 0.75, 0.25, 1);
+}
+
+.rbt-btn:hover.hover-icon-reverse .btn-icon+.btn-icon {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.225s;
+}
+
+
+.remark__text {
+  color: var(--primary-color);
+  background-color: #80008026;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 13px;
+}
+
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 
 /************** Navbar *******************/
 .top_nav,
@@ -278,6 +397,9 @@ Root Related Style End
 /**************************
  Hero Section Style Here 
  ***********************/
+
+
+
 .home_slide {
   position: relative;
 }
@@ -290,20 +412,20 @@ Root Related Style End
   top: 0;
   left: 0;
   z-index: -2;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413));
+  background-image: linear-gradient(rgba(51, 4, 48, 0.678), rgba(58, 26, 59, 0.413));
 }
+
 
 .home_slide1,
 .home_slide2,
 .home_slide3,
 .home_slide4,
 .home_slide5,
-.home_slide6,
-.home_slide7 {
+.home_slide6 {
   width: 100% !important;
   height: 100vh !important;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -311,36 +433,43 @@ Root Related Style End
   background-image: url("../images/Hero_bg-1.jpg");
 }
 
+
+
 .home_slide2 {
   background-image: url("../images/Hero_bg-2.jpg");
+
 }
 
 .home_slide3 {
   background-image: url("../images/Hero_bg-3.jpg");
+
 }
 
 .home_slide4 {
   background-image: url("../images/Hero_bg-4.jpg");
+
 }
 
 .home_slide5 {
   background-image: url("../images/Hero_bg-5.jpg");
+
 }
 
 .home_slide6 {
   background-image: url("../images/Hero_bg-6.jpg");
+
 }
 
 
-.d-hide {
-  visibility: hidden;
-  transition: 0.5s all;
-  transition-delay: 0.5s;
+.swiper-button-next,
+.swiper-button-prev {
+  border-radius: 50%;
+  left: auto;
+  border: 1px solid #80008089;
+  padding: 32px !important;
+  background: #80008063;
 }
 
-.hero_sliderr:hover .d-hide {
-  visibility: visible;
-}
 
 /*******************************
  Hero Section Style End 
@@ -356,6 +485,7 @@ Root Related Style End
 .tab-content ul li i {
   color: #8c3d88;
 }
+
 
 /****************************************
    School Overview Section Style End
@@ -398,6 +528,13 @@ Blog Section Style Here
   height: 330px;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
 .blog,
 .blogTwo,
 .blogThree {
@@ -412,10 +549,11 @@ Blog Section Style Here
  Student resource Section Style Here
  *************************** */
 .student_resource_container {
-  padding: 100px 0px;
+  padding: 150px 0px;
 }
 
-.student_resource_container .swiper-slide {
+
+.swiper-slide {
   padding: 10px;
 }
 
@@ -424,9 +562,15 @@ Blog Section Style Here
 
 }
 
+
+
 /**************************
  Others Resources 
  *************************/
+
+
+
+
 .others_resources h4 {
   font-size: 16px;
   margin-bottom: 30px;
