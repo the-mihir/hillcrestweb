@@ -739,9 +739,27 @@ footer a {
      .resources_box{
       box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-      /* padding: 30px 10px; */
      }
     
    /********************************
      Resources Section Style End 
    ********************************/
+
+
+   /**************************************************************************************************************
+                                                 College And Career Offices Page All Css Here
+   ************************************************************************************************************** */
+/*******************************
+ CCO Hero Section Style Here 
+ ********************************/
+ .CCO_hero_container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+  url("../images/Hero_bg-3.jpg");
+padding: 150px 0px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+/*******************************
+ CCO Hero Section Style End
+***************************** */
