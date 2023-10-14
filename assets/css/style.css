@@ -779,43 +779,63 @@ footer a {
 /***********************
   About Section Style Here 
   ***************************/
-  .sel_about_container{
-    padding: 80px 0px;
-    background-color: #F2F2F2;
-  }
-  .sel_about_btns a{
-    display: block;
-    text-decoration: none;
-    width: 100%;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #DFDFDF;
-    margin: 10px 0px;
-    text-align: center;
-  }
-  .sel_about_btns a:hover{
-    background-color: #c6c4c4;
-  }
+.sel_about_container {
+  padding: 80px 0px;
+  background-color: #f2f2f2;
+}
+.sel_about_btns a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  margin: 10px 0px;
+  text-align: center;
+}
+.sel_about_btns a:hover {
+  background-color: #713D6E;
+  color: white;
+}
 /***********************
   About Section Style End 
   ***************************/
-  /**************************************************************************************************************                                           Bell Schedule Page All CSS Here
+/**************************************************************************************************************                                           Bell Schedule Page All CSS Here
   ****************************************************************************************************************/
 /***********************************
  Bell Schedule Hero Section Here
 ********************************* */
-.bell_schedule_container{
+.bell_schedule_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
-  url("../images/Hero_bg-5.jpg");
-padding: 150px 0px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    url("../images/Hero_bg-5.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.schedule_container table,thead,td,th{
+ table{
+ width: 100% !important;
+}
+.schedule_container table,
+thead,
+td,
+th {
   border: 1px solid #8c3d88;
   border-collapse: collapse;
   text-align: center;
+  transition: 0.3s all;
+}
+td,
+th{
+  padding: 10px 0;
+}
+tr:hover {
+  background-color: #713D6E !important;
+  color: white;
+  cursor: pointer;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2 ;
 }
 /***********************************
  Bell Schedule Hero Section Here
