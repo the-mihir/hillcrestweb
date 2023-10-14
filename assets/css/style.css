@@ -820,17 +820,21 @@ footer a {
 thead,
 td,
 th {
-  border: 1px solid #8c3d88;
+  border: 1px solid #90a4ae;
   border-collapse: collapse;
   text-align: center;
   transition: 0.3s all;
+}
+.schedule_container table
+thead tr th{
+  padding: 20px 0px !important;
 }
 td,
 th{
   padding: 10px 0;
 }
 tr:hover {
-  background-color: #713D6E !important;
+  background-color: #a3539f !important;
   color: white;
   cursor: pointer;
 }
@@ -862,7 +866,7 @@ Morning Announcement Hero Section End
 
 .morning_tbody td{
   text-align: start;
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -886,3 +890,23 @@ Clubs Hero Section End
 .club_table td p:nth-child(1){
   font-weight: 700;
 }
+
+
+/* **************************************************************************************************************
+                                          Sports Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Sports Hero Section Here
+****************************** */
+.sports_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Clubs Hero Section End
+****************************** */

@@ -117,27 +117,43 @@
     padding: 100px 0px;
     background-position: right center;
   }
-  .reverse .row{
+  .reverse .row {
     display: flex;
     flex-direction: column-reverse !important;
-    
   }
-  .resources_box{
+  .resources_box {
     padding: 30px 0px !important;
     overflow-x: hidden;
   }
-  .resources_box ul{
+  .resources_box ul {
     display: flex;
     flex-direction: column;
     gap: 0 !important;
   }
-  .club{
+  .club {
     overflow-x: scroll;
   }
-  .club .p_bg_color{
-    background-color: #713D6E;
+  .sports_content .schedule_container {
+    overflow-x: scroll;
   }
-  .club_table td p:nth-child(1){
+  .sports_content .schedule_container th {
+    white-space: nowrap;
+    padding: 20px !important;
+  }
+  .sports_content p {
+    width: 100% !important;
+  }
+  .sports_content .nav-pills{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+  .sports_content .nav-pills .nav-item .nav-link {
+    font-size: 12px;
+  }
+  .schedule_container .p_bg_color {
+    background-color: #713d6e;
+  }
+  .club_table td p:nth-child(1) {
     white-space: nowrap;
   }
 }
@@ -169,6 +185,8 @@
     flex-direction: column;
   }
   .filter_tabs .nav-link {
+
+
     font-size: 10px !important;
     margin: 0;
     padding: 10px 10px !important;
@@ -179,6 +197,9 @@
   .contact p {
     display: flex;
     flex-direction: column;
+  }
+  .sports_content p {
+    width: 100% !important;
   }
 }
 
