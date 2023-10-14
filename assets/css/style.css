@@ -874,7 +874,7 @@ Clubs Hero Section Here
 ****************************** */
 .club_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
-    url("../images/Hero_bg-6.jpg");
+    url("../images/Hero_bg-4.jpg");
   padding: 150px 0px;
   background-position: center;
   background-repeat: no-repeat;
@@ -883,3 +883,6 @@ Clubs Hero Section Here
 /* ****************************
 Clubs Hero Section End
 ****************************** */
+.club_table td p:nth-child(1){
+  font-weight: 700;
+}

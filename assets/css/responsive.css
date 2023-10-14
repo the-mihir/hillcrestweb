@@ -131,8 +131,14 @@
     flex-direction: column;
     gap: 0 !important;
   }
-  table{
+  .club{
     overflow-x: scroll;
+  }
+  .club .p_bg_color{
+    background-color: #713D6E;
+  }
+  .club_table td p:nth-child(1){
+    white-space: nowrap;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
