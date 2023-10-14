@@ -971,3 +971,38 @@ Student Resource Hero Section End
 /* ****************************
  Resources Section Start End
 ****************************** */
+
+
+/* **************************************************************************************************************
+                                          Students Transcripts Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Students Transcripts Hero Section Here
+****************************** */
+.transcripts_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-3.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Students Transcripts Hero Section End
+****************************** */
+
+
+/* ****************************
+ Transcript Content Section Style Here
+****************************** */
+.transcript_content{
+  padding: 80px 0;
+}
+.transcript_box{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+/* ****************************
+ Transcript Content Section Style End
+****************************** */
