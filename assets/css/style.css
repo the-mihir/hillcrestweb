@@ -840,3 +840,46 @@ table tr:nth-child(even) {
 /***********************************
  Bell Schedule Hero Section Here
 ********************************* */
+
+
+/* ****************************************************************************************************************
+                                      Morning Announcement Page All Css Here
+***************************************************************************************************************** */
+/* ****************************
+Morning Announcement Hero Section Here
+****************************** */
+.announcement_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-6.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Morning Announcement Hero Section End
+****************************** */
+
+.morning_tbody td{
+  text-align: start;
+  padding: 10px;
+}
+
+
+/* ****************************************************************************************************************
+                                     Clubs Page All Css Here
+***************************************************************************************************************** */
+/* ****************************
+Clubs Hero Section Here
+****************************** */
+.club_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-6.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Clubs Hero Section End
+****************************** */
