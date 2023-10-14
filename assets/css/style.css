@@ -799,3 +799,24 @@ footer a {
 /***********************
   About Section Style End 
   ***************************/
+  /**************************************************************************************************************                                           Bell Schedule Page All CSS Here
+  ****************************************************************************************************************/
+/***********************************
+ Bell Schedule Hero Section Here
+********************************* */
+.bell_schedule_container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+  url("../images/Hero_bg-5.jpg");
+padding: 150px 0px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.schedule_container table,thead,td,th{
+  border: 1px solid #8c3d88;
+  border-collapse: collapse;
+  text-align: center;
+}
+/***********************************
+ Bell Schedule Hero Section Here
+********************************* */
