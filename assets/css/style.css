@@ -84,6 +84,26 @@ h6 {
   background-color: #6c3469;
   animation: pop 0.3s linear 1;
 }
+.modal_btn{
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  transition: .3s all;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.modal_btn i{
+  transform: translateX(20px);
+  visibility: hidden;
+  transition: .3s all;
+}
+.modal_btn:hover i{
+  transform: translateX(0px);
+  visibility: visible;
+}
 
 @keyframes pop {
   50% {
@@ -925,4 +945,29 @@ Student Resource Hero Section Here
 }
 /* ****************************
 Student Resource Hero Section End
+****************************** */
+
+/* ****************************
+ Resources Section Start End
+****************************** */
+.student_resources{
+  background-image: url("../images/leaf__shape.png"),linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 0;
+}
+
+.resource_content{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.resource_content li{
+  margin: 10px 0;
+}
+#helpfulResources li{
+  margin: 10px 0;
+}
+/* ****************************
+ Resources Section Start End
 ****************************** */
