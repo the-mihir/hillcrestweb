@@ -794,7 +794,7 @@ footer a {
   text-align: center;
 }
 .sel_about_btns a:hover {
-  background-color: #713D6E;
+  background-color: #713d6e;
   color: white;
 }
 /***********************
@@ -813,8 +813,8 @@ footer a {
   background-repeat: no-repeat;
   background-size: cover;
 }
- table{
- width: 100% !important;
+table {
+  width: 100% !important;
 }
 .schedule_container table,
 thead,
@@ -825,12 +825,11 @@ th {
   text-align: center;
   transition: 0.3s all;
 }
-.schedule_container table
-thead tr th{
+.schedule_container table thead tr th {
   padding: 20px 0px !important;
 }
 td,
-th{
+th {
   padding: 10px 0;
 }
 tr:hover {
@@ -839,12 +838,11 @@ tr:hover {
   cursor: pointer;
 }
 table tr:nth-child(even) {
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
 }
 /***********************************
  Bell Schedule Hero Section Here
 ********************************* */
-
 
 /* ****************************************************************************************************************
                                       Morning Announcement Page All Css Here
@@ -864,11 +862,10 @@ Morning Announcement Hero Section Here
 Morning Announcement Hero Section End
 ****************************** */
 
-.morning_tbody td{
+.morning_tbody td {
   text-align: start;
   padding: 20px;
 }
-
 
 /* ****************************************************************************************************************
                                      Clubs Page All Css Here
@@ -887,10 +884,9 @@ Clubs Hero Section Here
 /* ****************************
 Clubs Hero Section End
 ****************************** */
-.club_table td p:nth-child(1){
+.club_table td p:nth-child(1) {
   font-weight: 700;
 }
-
 
 /* **************************************************************************************************************
                                           Sports Page All CSS Here
@@ -908,5 +904,25 @@ Sports Hero Section Here
   background-size: cover;
 }
 /* ****************************
-Clubs Hero Section End
+Sports Hero Section End
+****************************** */
+
+
+/* **************************************************************************************************************
+                                          Student Resource Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Student Resource Hero Section Here
+****************************** */
+.student_resoueces_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-1.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Student Resource Hero Section End
 ****************************** */
