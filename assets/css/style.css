@@ -1235,7 +1235,9 @@ Admin InfoHub Content Section Start
 .forms_links li {
   margin: 10px 0;
 }
-
+.forms_links{
+  border-top: 5px solid #6c3469;
+}
 /* ****************************
 Admin InfoHub Content Section End
 ****************************** */
