@@ -118,6 +118,12 @@ h6 {
 .border-right {
   border-right: 1px solid #6c34698c !important;
 }
+.border-top {
+  border-top: 1px solid #6c34698c !important;
+}
+.border-bottom {
+  border-bottom: 1px solid #6c34698c !important;
+}
 
 .m-80 {
   margin-top: 80px;
@@ -253,6 +259,7 @@ body a:hover {
 .mega_menu .nav-item .nav-link {
   font-size: 14px;
   white-space: nowrap;
+
 }
 
 .navbar-toggler {
@@ -1078,4 +1085,48 @@ Staff Directory Content Style Here
 }
 /******************************************
 Staff Directory Content Style Here 
+ ******************************************/
+
+
+ /* **************************************************************************************************************
+                                          PTA/SLT Information Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+PTA/SLT Information Hero Section Here
+****************************** */
+.pta-slt_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-6.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+PTA/SLT Information Hero Section End
+****************************** */
+
+/*******************************************
+PTA/SLT Information Content Style Here 
+ *******************************************/
+.pta-slt_information{
+  padding: 80px 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.15),
+    rgba(251, 199, 226, 0.15),
+    rgba(220, 217, 254, 0.15)
+  ) !important;
+}
+.pta-meet-time_content{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.pta-quick-link_container, .pta_calender{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+/******************************************
+PTA/SLT Information Content Style Here 
  ******************************************/

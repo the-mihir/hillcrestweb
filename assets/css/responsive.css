@@ -156,6 +156,10 @@
   .club_table td p:nth-child(1) {
     white-space: nowrap;
   }
+  .meet-title{
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .navbar-toggler {

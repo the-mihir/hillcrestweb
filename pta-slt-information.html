@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Students Resources</title>
+    <title>PTA/SLT Information</title>
     <link
       rel="shortcut icon"
       href="Assets/images/Main Logo.png"
@@ -120,18 +120,20 @@
                   <ul class="dropdown-menu p_bg_color pe-3">
                     <li>
                       <a
-                        class="dropdown-item  text-white mt-2"
+                        class="dropdown-item text-white mt-2"
                         href="overview.html"
                         >High School Overview</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item  text-white mt-2" href="slc.html"
+                      <a class="dropdown-item text-white mt-2" href="slc.html"
                         >Small Learning Community (SLC) Overview</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item text-white mt-2" href="staff-directory.html"
+                      <a
+                        class="dropdown-item text-white mt-2"
+                        href="staff-directory.html"
                         >Faculty & Staff Directory</a
                       >
                     </li>
@@ -149,7 +151,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link  dropdown-toggle text-white"
+                    class="nav-link dropdown-toggle text-white"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -170,7 +172,7 @@
                     </li>
                     <li>
                       <a
-                        class="dropdown-item  text-white mt-2"
+                        class="dropdown-item text-white mt-2"
                         href="collage-career-office.html"
                         >College And Career Office</a
                       >
@@ -222,7 +224,7 @@
                         </li>
                         <li class="nav-item">
                           <a
-                            class="nav-link  text-white"
+                            class="nav-link text-white"
                             aria-current="page"
                             href="morning-announcment.html"
                             >Morning Announcements</a
@@ -254,7 +256,7 @@
                         </li>
                         <li class="nav-item">
                           <a
-                            class="nav-link  text-white"
+                            class="nav-link text-white"
                             aria-current="page"
                             href="clubs.html"
                             >Clubs</a
@@ -278,7 +280,7 @@
                         </li>
                         <li class="nav-item border-none">
                           <a
-                            class="nav-link active_link text-white"
+                            class="nav-link text-white"
                             aria-current="page"
                             href="student-resources.html"
                             >Students Resourch</a
@@ -305,7 +307,7 @@
                         </li>
                         <li class="nav-item">
                           <a
-                            class="nav-link  text-white"
+                            class="nav-link text-white"
                             aria-current="page"
                             href="family-resource.html"
                             >Family Resourch</a
@@ -321,9 +323,9 @@
                         </li>
                         <li class="nav-item">
                           <a
-                            class="nav-link text-white"
+                            class="nav-link active_link text-white"
                             aria-current="page"
-                            href="pta-slt-information.html"
+                            href="#"
                             >PTA/SLT Information</a
                           >
                         </li>
@@ -462,322 +464,304 @@
       <!------------------------------
          Hero Section Start
     ----------------------------- -->
-      <section class="student_resoueces_container text-white text-center">
+      <section class="pta-slt_hero text-white text-center">
         <div class="container">
-          <h1 class="fw-bold">Useful Resources For Students</h1>
+          <h1 class="fw-bold">PTA/SLT Information</h1>
         </div>
       </section>
       <!------------------------------
          Hero Section End
     ----------------------------- -->
 
-      <!------------------------------
-         Resources Section Start
-    ----------------------------- -->
-      <section class="student_resources">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div
-                class="text-center p-3 text-white"
-                style="background-color: #6f3b6d"
-              >
-                <h5>HELPFUL RESOURCES</h5>
-              </div>
-              <div class="p-5 resource_content">
-                <ol>
-                  <li>
-                    <a
-                      href="https://drive.google.com/file/d/1zolugcihJOpXVdfUXZdbP5GQWozEP_QD/view"
-                      >Login Tutorial for @nycstudents.net
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.khanacademy.org/">Khan Academy</a>
-                    <span
-                      >Tutoring for almost all subjects from videos to practice
-                      questions.</span
-                    >
-                  </li>
-                  <li>
-                    <a href="https://thecrashcourse.com/">Crash Course</a>
-                    <span
-                      >Consist of videos to help with science and History
-                      topics......</span
-                    >
-                  </li>
-                </ol>
+      <!-----------------------------------------
+         Schedule Section Here
+        ----------------------------------- -->
+      <section class="pta-slt_information">
+        <div class="sports_content">
+          <div class="container">
+            <ul class="nav nav-pills mb-3 mt-5" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
                 <button
+                  class="nav-link active"
+                  id="pills-pta-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-pta"
                   type="button"
-                  class="modal_btn"
-                  data-bs-toggle="modal"
-                  data-bs-target="#helpfulResources"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
                 >
-                  Read More
-                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                  PTA/SLT MEET TIMES
                 </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-quick-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-quick"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  QUICK LINKS
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-calender-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-calender"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  CALENDAR
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-pta"
+                role="tabpanel"
+                aria-labelledby="pills-pta-tab"
+                tabindex="0"
+              >
+                <div class="pta-meet-time_conatiner mt-5">
+                  <div class="p_bg_color text-white p-4 text-center">
+                    <h5>PTA/SLT MEET TIMES</h5>
+                  </div>
+                  <div class="pta-meet-time_content p-4">
+                    <p
+                      class="fw-bold d-flex justify-content-center align-items-center gap-4 meet-title"
+                    >
+                      <span
+                        >SLT on every third Tuesday of the month at 3:45
+                        pm</span
+                      >
+                      <span
+                        ><i
+                          class="fa-solid fa-left-right p_color fs-5 sm-d-none"
+                        ></i
+                      ></span>
+                      <span>
+                        PTA on every third Tuesday of the month at 6:00 pm</span
+                      >
+                    </p>
+                    <p>
+                      Welcome back to the 2023-2024 school year at Hillcrest HS!
+                      We will be kicking off our first PTA meeting in September.
+                      Please make sure to attend as we have many new items to
+                      cover including our new PTA Committee and Parent
+                      Coordinator. The Zoom link info is below for your ease. We
+                      will have to have an emergency election and title 1
+                      election for our October meeting so if anyone is
+                      interested, please join our September meeting. We still
+                      need a secretary in the PTA committee. We look forward to
+                      seeing you all there!
+                    </p>
+                    <p class="fw-bold">Sincerely,</p>
+                    <ul>
+                      <li>
+                        Ms. Ibrahim- AP of Guidance;
+                        <a href="mailto:mibrahim8@schools.nyc.gov "
+                          >mibrahim8@schools.nyc.gov
+                        </a>
+                      </li>
+                      <li>
+                        Mr. Rosado- Parent Coordinator;
+                        <a href="mailto:crosado16@schools.nyc.gov"
+                          >crosado16@schools.nyc.gov</a
+                        >
+                      </li>
+                      <li class="d-flex align-items-center gap-3">
+                        Join Zoom Meeting
+                        <span
+                          ><i class="fa-solid fa-arrow-right-long"></i
+                        ></span>
+                        <a
+                          href="https://zoom.us/j/97836496606?pwd=Q0pjRkJ1MER3NmFJblJhK01ZelRPdz09"
+                          >Click Here
+                        </a>
+                      </li>
+                      <li>
+                        Meeting ID: 978 3649 6606
+                        <span class="ms-3">Passcode: 280505</span>
+                      </li>
+                      <li class="fw-bold py-2">One tap mobile</li>
+                      <li>
+                        <span class="me-2"
+                          ><i class="fa-solid fa-phone"></i></span
+                        >+16465588656,,97836496606#,,,,*280505# US (New York)
+                      </li>
+                      <li class="mt-2">
+                        <span class="me-2"
+                          ><i class="fa-solid fa-phone"></i></span
+                        >+16469313860,,97836496606#,,,,*280505# US
+                      </li>
+                    </ul>
+                    <p class="fw-bold">Dial by your location</p>
+                    <ul class="row">
+                      <div class="col-lg-6 col-md-6 sm-col-12">
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 646 558 8656 US (New York)
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 646 931 3860 US
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 312 626 6799 US (Chicago)
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 301 715 8592 US (Washington DC)
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 309 205 3325 US
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 669 900 9128 US (San Jose)
+                        </li>
+                      </div>
+                      <div class="col-lg-6 col-md-6 sm-col-12">
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 719 359 4580 U
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 253 215 8782 US (Tacoma)
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 346 248 7799 US (Houston)
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 386 347 5053 US
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 564 217 2000 US
+                        </li>
+                        <li class="py-2">
+                          <span class="me-2"
+                            ><i class="fa-solid fa-phone"></i
+                          ></span>
+                          +1 669 444 9171 US
+                        </li>
+                      </div>
+                    </ul>
+                    <p>Meeting ID: 978 3649 6606 <span class="ms-3">Passcode: 280505</span></p>
+                    <p>Find your local number: <span class="mx-2"><i class="fa-solid fa-magnifying-glass"></i></span><a href="https://zoom.us/u/ag2QTvJpK">Click Here</a></p>
+                  </div>
+                </div>
               </div>
+
+              <div
+                class="tab-pane fade"
+                id="pills-quick"
+                role="tabpanel"
+                aria-labelledby="pills-quick-tab"
+                tabindex="0"
+              >
+            <div class="pta-quick-link_container rounded w-50 m-auto p-3 mt-5 sel_about_btns">
+                <img class="img-fluid rounded w-100" src="./assets/images/donation.jpg" alt="">
+                <a href="https://drive.google.com/file/d/1rkhQ1MU8QDBGXf-8PsTg6bzQzeNNeNJI/view">Support Us</a>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            </div>
               <div
-                class="text-center p-3 text-white"
-                style="background-color: #6f3b6d"
+                class="tab-pane fade"
+                id="pills-calender"
+                role="tabpanel"
+                aria-labelledby="pills-calender-tab"
+                tabindex="0"
               >
-                <h5>RESOURCES FOR SENIORS</h5>
-              </div>
-              <div class="p-5 resource_content">
-                <a
-                  href="https://drive.google.com/drive/folders/1YMPkR17FHfJQToYh2spqyxrrldDFfOfj?usp=sharing"
-                  >Senior Folder from College Counselor</a
-                >
-                <p class="mb-4">
-                  The following link is very crucial for any senior regarding
-                  colleges financial aid and scholarships.
-                </p>
-                <p class="lh-1">
-                  <strong>Hillcrest College Counselor</strong> - Contact For
-                  Assistance
-                </p>
-                <p>
-                  Ms. Caruso:
-                  <a href="mailto:ncaruso5@schools.nyc.gov"
-                    >ncaruso5@schools.nyc.gov</a
-                  >
-                </p>
-                <button
-                  type="button"
-                  class="modal_btn"
-                  data-bs-toggle="modal"
-                  data-bs-target="#resourcesForSinior"
-                >
-                  Read More
-                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                </button>
-              </div>
+            <div class="pta_calender row mt-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 border-right p-3">
+                    <h5 class="fw-bold">OCT 15</h5>
+                    <div class="divider w-25 my-3"></div>
+                    <h5>Breast Cancer Walk</h5>
+                    <p>9:00 am - 1:00 PM</p>
+                    <p>See Ms. Wyat Room 364</p>
+                    <p><small>Hillcrest High School</small></p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 border-right p-3">
+                    <h5 class="fw-bold">OCT 16</h5>
+                    <div class="divider w-25 my-3"></div>
+                    <h5>MAP GROWTH MATH ADMINISTRATION</h5>
+                    <p><small>Hillcrest High School</small></p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <h5 class="fw-bold">OCT 17</h5>
+                    <h5>12:20 AM - 1:00 AM</h5>
+                    <div class="divider w-25 my-3"></div>
+                    <h5>College Office hosts Hofstra University Representative Visit</h5>
+                    <p>All grade levels Hofstra University Representative Visit (college visit) Any student interested in learning more about Hofstra is welcome to stop by the table for information or to talk to the Admissions Representative.</p>
+                    <h6>280 Box</h6>
+                    <p><small>Hillcrest High School</small></p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3 border-right border-top">
+                    <h5 class="fw-bold">OCT 17</h5>
+                    <div class="divider w-25 my-3"></div>
+                    <h5>SLT Meeting</h5>
+                    <p><small>Hillcrest High School</small></p>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 p-3 border-top">
+                    <h5 class="fw-bold">OCT 18</h5>
+                    <h6>4:00 AM - 5:00 AM</h6>
+                    <div class="divider w-25 my-3"></div>
+                    <h5>PTA Meeting</h5>
+                    <p>Hillcrest H.S. P.T.A. Meeting</p>
+                    <p>Join Zoom Meeting</p>
+                    <h6>virtual</h6>
+                    <p><small>Hillcrest High School</small></p>
+                </div>
+            </div>
+            
+            
+            
+            
+            </div>
             </div>
           </div>
         </div>
       </section>
-      <!------------------------------
-         Resources Section End
-    ----------------------------- -->
-      <!-- Modal Content -->
-      <div
-        class="modal fade"
-        id="helpfulResources"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-head py-3 p_bg_color">
-              <h5 class="fw-bold text-center text-white">HELPFUL RESOURCES</h5>
-            </div>
-            <div class="modal-body">
-              <ol>
-                <li>
-                  <a
-                    href="https://drive.google.com/file/d/1zolugcihJOpXVdfUXZdbP5GQWozEP_QD/view"
-                    >Login Tutorial for @nycstudents.net
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.khanacademy.org/">Khan Academy</a>
-                  <span
-                    >Tutoring for almost all subjects from videos to practice
-                    questions.</span
-                  >
-                </li>
-                <li>
-                  <a href="https://thecrashcourse.com/">Crash Course</a>
-                  <span
-                    >Consist of videos to help with science and History
-                    topics.</span
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/channel/UCm_90Kp5VSXLDk8dVF0IlUg"
-                    >NYS Mathematics Regents Preparation</a
-                  >
-                  <span
-                    >NYS regents Preparation. Solution and discussing problems
-                    on the past regents exam. Mathematics.</span
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/watch?v=vhm8ri0XNBM&feature=youtu.be"
-                    >Pre-Algebra - Basic Introduction!</a
-                  >
-                  <span
-                    ><a href="https://www.mathway.com/Algebra"
-                      >This is a virtual scientific and graphic calculator
-                    </a>
-                    that can be used by students to do any math including
-                    trigonometry, pre-calc. calculus, statistics, linear
-                    algebra, chemistry. Change the setting to your need one and
-                    you have it.</span
-                  >
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/">Youtube</a>
-                  <span
-                    >offers many different videos based on things you may have a
-                    question about. ( NYS Mathematics Regents Preparation, The
-                    Organic Chemistry Tutor)</span
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://quizlet.com/login?redir=https://quizlet.com/latest"
-                    >Quizlet</a
-                  >
-                </li>
-                <li>
-                  Google Play <br />
-                  <span
-                    >Go on google play and type in shake it alarm or use the
-                    clock app on your phone to build a schedule that will help
-                    you throughout the day; this is good for time
-                    management.</span
-                  >
-                </li>
-              </ol>
-              <h5 class="fw-bold">Motivational Quotes</h5>
-              <ul>
-                <li>
-                  Downloading an app called motivational quotes will help you
-                  throughout the day because as You are sleeping the
-                  motivational quote will appear as the first thing on your
-                  screen in the morning to uplift you.
-                </li>
-                <li>
-                  The bottom links to some great inspirational and motivational
-                  leaders that will help to boost your skills in many areas and
-                  confidence building.
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/user/johnmaxwellteam"
-                    >John C. Maxwell</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/user/SimonSinek"
-                    >Simon Sinek</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="modal_btn"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="modal fade"
-        id="resourcesForSinior"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-head py-3 p_bg_color">
-              <h5 class="fw-bold text-center text-white">
-                RESOURCES FOR SENIORS
-              </h5>
-            </div>
-            <div class="modal-body">
-              <a
-                href="https://drive.google.com/drive/folders/1YMPkR17FHfJQToYh2spqyxrrldDFfOfj?usp=sharing"
-                >Senior Folder from College Counselor</a
-              >
-              <p class="mb-4">
-                The following link is very crucial for any senior regarding
-                colleges financial aid and scholarships.
-              </p>
-              <p class="lh-1">
-                <strong>Hillcrest College Counselor</strong> - Contact For
-                Assistance
-              </p>
-              <p>
-                Ms. Caruso:
-                <a href="mailto:ncaruso5@schools.nyc.gov"
-                  >ncaruso5@schools.nyc.gov</a
-                >
-              </p>
-              <p class="mb-4">
-                Ms. Herrera:
-                <a href="mailto:vherrera7@schools.nyc.gov"
-                  >vherrera7@schools.nyc.gov</a
-                >
-              </p>
-              <p>
-                <strong>CUNY Admissions for Students:</strong>
-         
-                <a class="text-decoration-none" href="callto:(212) 997-2869"
-                  >(212) 997-2869</a
-                >
-              </p>
-              <p>
-                <strong>CUNY Admissions for Students:</strong>
-            
-                <a class="text-decoration-none" href="callto:(800) 342-3811"
-                  >(800) 342-3811</a
-                >
-              </p>
-              <p>
-                <strong>FAFSA help for Parents and Students:strong>
-               
-                <a class="text-decoration-none" href="callto: (800) 433-3243"
-                  > (800) 433-3243</a
-                >
-              </p>
-              <a href="https://studentaid.gov/">FAFSA Home Page</a> <br>
-              <a href="https://studentaid.gov/apply-for-aid/fafsa/filling-out/help">FAFSA® Help</a>
-              <p class="mt-4"><strong>FAFSA CHAT</strong> (chat with a representative): <a class="text-decoration-none" href="https://studentaidhelp.ed.gov/app/chat/chat_launch/chat_data">Chat with UsOpens</a></p>
-              <p><strong>TAP help for Parents and Students:</strong> <a class="text-decoration-none" href="callto:(888) 697-4372">(888) 697-4372</a></p>
-              <p class="mb-4"><strong>College Board Advanced Placement for Students:</strong> <a class="text-decoration-none" href="callto:888-225-5427">888-225-5427</a></p>
-              <p><strong>College Board Advanced Placement for Students:</strong>
-            <br>
-         <a class="text-decoration-none" href="callto:888-225-5427">888-225-5427</a>
-        <br>
-        <a href="mailto:apstudents@info.collegeboard.org">apstudents@info.collegeboard.org</a></p>
-
-              <p><strong>College Board SAT Score help for students:</strong>
-            <br>
-         <a class="text-decoration-none" href="callto:888-225-5427">866-756-7346
-        </a>
-        <br>
-        <a href="mailto:sat@info.collegeboard.org">sat@info.collegeboard.org</a></p>
-         
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="modal_btn"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Modal Content -->
+      <!-----------------------------------------
+         Schedule Section End
+        ----------------------------------- -->
     </main>
     <!---------------------
          Footer Here
