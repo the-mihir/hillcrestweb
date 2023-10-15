@@ -133,7 +133,9 @@ select::after {
   right: 40px !important;
 }
 
-
+.nav-pills .nav-link {
+  border-radius: 0px !important;
+}
 
 /* ::::::::::::::::: Cucstom Button :::::::::::::::::  */
 
@@ -418,10 +420,7 @@ Root Related Style End
 
 .home_slide1,
 .home_slide2,
-.home_slide3,
-.home_slide4,
-.home_slide5,
-.home_slide6 {
+.home_slide3 {
   width: 100% !important;
   height: 100vh !important;
   background-repeat: no-repeat;
@@ -445,21 +444,6 @@ Root Related Style End
 
 }
 
-.home_slide4 {
-  background-image: url("../images/Hero_bg-4.jpg");
-
-}
-
-.home_slide5 {
-  background-image: url("../images/Hero_bg-5.jpg");
-
-}
-
-.home_slide6 {
-  background-image: url("../images/Hero_bg-6.jpg");
-
-}
-
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -469,6 +453,7 @@ Root Related Style End
   padding: 32px !important;
   background: #80008063;
 }
+
 
 
 /*******************************
@@ -564,59 +549,6 @@ Blog Section Style Here
 
 
 
-/**************************
- Others Resources 
- *************************/
-
-
-
-
-.others_resources h4 {
-  font-size: 16px;
-  margin-bottom: 30px;
-}
-
-.others_resources img {
-  width: 150px;
-  border-radius: 7px;
-}
-
-.others_resources .row {
-  flex-wrap: nowrap;
-  justify-content: center !important;
-}
-
-.resource_box {
-  text-align: center;
-  padding: 30px 10px;
-  background-color: #f2f2f2;
-  transition: 0.3s all;
-  position: relative;
-  z-index: 75;
-  border-radius: 10px;
-}
-
-.resource_box:hover {
-  color: white;
-}
-
-.resource_box:after {
-  content: "";
-  width: 100%;
-  height: 0;
-  background-image: linear-gradient(#202052, #05056e);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: 0.4s all;
-  border-radius: 10px;
-}
-
-.resource_box:hover::after {
-  height: 100%;
-  top: 0;
-}
 
 /* *************************
  Student resource Section Style End
@@ -834,3 +766,10 @@ footer a {
 /********************************************
  Footer Style End 
  ********************************************/
+
+
+
+
+
+
+/* :::::::::::: Custom CSS ttrying ::::::::: */
