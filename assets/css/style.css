@@ -1279,3 +1279,26 @@ Wellcome Hero Section Here
 /* ****************************
 Wellcome Hero Section End
 ****************************** */
+
+/* **************************************************************************************************************
+                                        Hillcrest News Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Hillcrest News Hero Section Here
+****************************** */
+.hillcrest_news_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-2.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Hillcrest News Hero Section End
+****************************** */
+
+.news_container .row{
+  flex-wrap: nowrap !important;
+}
