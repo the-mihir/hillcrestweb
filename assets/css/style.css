@@ -99,13 +99,13 @@ h6 {
   gap: 7px;
 }
 .modal_btn i {
-  transform: translateX(20px);
-  visibility: hidden;
+  transform: translateX(0px);
+  visibility: visible;
   transition: 0.3s all;
 }
 .modal_btn:hover i {
-  transform: translateX(0px);
-  visibility: visible;
+  transform: translateX(15px);
+  visibility: hidden;
 }
 
 @keyframes pop {
