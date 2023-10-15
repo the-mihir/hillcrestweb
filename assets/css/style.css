@@ -84,23 +84,23 @@ h6 {
   background-color: #6c3469;
   animation: pop 0.3s linear 1;
 }
-.modal_btn{
+.modal_btn {
   border: none;
   outline: none;
   background-color: var(--primary-color);
   color: white;
   padding: 10px 20px;
-  transition: .3s all;
+  transition: 0.3s all;
   display: flex;
   align-items: center;
   gap: 7px;
 }
-.modal_btn i{
+.modal_btn i {
   transform: translateX(20px);
   visibility: hidden;
-  transition: .3s all;
+  transition: 0.3s all;
 }
-.modal_btn:hover i{
+.modal_btn:hover i {
   transform: translateX(0px);
   visibility: visible;
 }
@@ -545,8 +545,8 @@ Blog Section Style Here
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: linear-gradient(#202052bb, #202052b8),
-    url("images/home\ slider\ 1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.834)),
+    url("../images/staff\ bg.jpg");
 }
 
 .course_container input,
@@ -927,7 +927,6 @@ Sports Hero Section Here
 Sports Hero Section End
 ****************************** */
 
-
 /* **************************************************************************************************************
                                           Student Resource Page All CSS Here
 **************************************************************************************************************** */
@@ -950,28 +949,33 @@ Student Resource Hero Section End
 /* ****************************
  Resources Section Start End
 ****************************** */
-.student_resources{
-  background-image: url("../images/leaf__shape.png"),linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
+.student_resources {
+  background-image: url("../images/leaf__shape.png"),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15)
+    );
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 80px 0;
 }
 
-.resource_content{
+.resource_content {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.resource_content li{
+.resource_content li {
   margin: 10px 0;
 }
-#helpfulResources li{
+#helpfulResources li {
   margin: 10px 0;
 }
 /* ****************************
  Resources Section Start End
 ****************************** */
-
 
 /* **************************************************************************************************************
                                           Students Transcripts Page All CSS Here
@@ -992,16 +996,15 @@ Students Transcripts Hero Section Here
 Students Transcripts Hero Section End
 ****************************** */
 
-
 /* ****************************
  Transcript Content Section Style Here
 ****************************** */
-.transcript_content{
+.transcript_content {
   padding: 80px 0;
 }
-.transcript_box{
+.transcript_box {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 /* ****************************
  Transcript Content Section Style End
@@ -1026,11 +1029,53 @@ Family Resources Hero Section Here
 Family Resources Hero Section End
 ****************************** */
 
-/* Family resources Content Style Here */
-.quick_link{
+/*******************************************
+ Family resources Content Style Here 
+ *******************************************/
+.quick_link {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   padding: 15px;
-  
 }
-/* Family resources Content Style Here */
+/******************************************
+ Family resources Content Style Here 
+ ******************************************/
+
+/* **************************************************************************************************************
+                                          Faculty And Staff Directory Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Staff Directory Hero Section Here
+****************************** */
+.staff_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Staff Directory Hero Section End
+****************************** */
+
+/*******************************************
+Staff Directory Content Style Here 
+ *******************************************/
+.staff_container .course_container {
+  padding: 80px 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.15),
+    rgba(251, 199, 226, 0.15),
+    rgba(220, 217, 254, 0.15)
+  ) !important;
+}
+.staff_container .course_container .staff_box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+/******************************************
+Staff Directory Content Style Here 
+ ******************************************/
