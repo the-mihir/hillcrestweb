@@ -1216,6 +1216,11 @@ Admin InfoHub Hero Section Here
 Admin InfoHub Hero Section End
 ****************************** */
 
+
+/* ****************************
+Admin InfoHub Content Section Start
+****************************** */
+
 .admin-infohub{
   background-image: linear-gradient(
     to right,
@@ -1231,3 +1236,27 @@ Admin InfoHub Hero Section End
 .forms_links li{
   margin: 10px 0;
 }
+
+/* ****************************
+Admin InfoHub Content Section End
+****************************** */
+
+
+/* **************************************************************************************************************
+                                        Courses Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Courses Hero Section Here
+****************************** */
+.Courses_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-6.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Courses Hero Section End
+****************************** */
