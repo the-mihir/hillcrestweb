@@ -1216,12 +1216,11 @@ Admin InfoHub Hero Section Here
 Admin InfoHub Hero Section End
 ****************************** */
 
-
 /* ****************************
 Admin InfoHub Content Section Start
 ****************************** */
 
-.admin-infohub{
+.admin-infohub {
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 0.15),
@@ -1230,17 +1229,16 @@ Admin InfoHub Content Section Start
   );
   padding: 80px 0;
 }
-.admin-infohub tr:hover a{
+.admin-infohub tr:hover a {
   color: white !important;
 }
-.forms_links li{
+.forms_links li {
   margin: 10px 0;
 }
 
 /* ****************************
 Admin InfoHub Content Section End
 ****************************** */
-
 
 /* **************************************************************************************************************
                                         Courses Page All CSS Here
@@ -1299,6 +1297,39 @@ Hillcrest News Hero Section Here
 Hillcrest News Hero Section End
 ****************************** */
 
-.news_container .row{
+.news_container .row {
   flex-wrap: nowrap !important;
+}
+
+/* **************************************************************************************************************
+                                        Senior Tab Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Senior Tab Hero Section Here
+****************************** */
+.senior_tab_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-3.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Senior Tab Hero Section End
+****************************** */
+
+.senior_container {
+  background-image: url("../images/leaf__shape.png"),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15)
+    );
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 0;
 }
