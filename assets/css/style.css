@@ -549,12 +549,6 @@ Root Related Style End
 /* *************************
 Blog Section Style Here
  *************************** */
-.blog__bg {
-  background-image: url('../images/leaf__shape.png');
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 
 .blog_news_container {
   background-image: url("../images/leaf__shape.png"),
@@ -771,9 +765,8 @@ select:focus {
  **************************/
 .cta_container {
 
-  background-image: linear-gradient(#202052bb, #202052b8),
-    url("../images/staff\ bg.jpg");
-  box-shadow: #A3539F 5px 5px, #a3539fa7 10px 10px, #a3539f73 15px 15px, #a3539f54 20px 20px, #a3539f17 25px 25px, #a24e9e17 30px 30px;
+  background-image: url("../images/graduation_fest.webp");
+  transform: translateY(30%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1438,5 +1431,3 @@ Senior Tab Hero Section End
   background-size: contain;
   padding: 80px 0;
 }
-
->>>>>>>dev_jr
