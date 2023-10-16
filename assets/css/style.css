@@ -634,11 +634,12 @@ Blog Section Style Here
   color: white;
   display: flex;
   align-items: center;
+  background-image: url("../images/social__link.webp");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../images/apply_bg.jpg");
+
 }
 
 /***************************************
