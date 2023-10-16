@@ -12,6 +12,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body {
+  overflow-x: hidden;
+}
 
 /************************************ 
 Root Related Style Here 
@@ -107,6 +110,7 @@ h6 {
 .modal_btn:hover i {
   transform: translateX(15px);
   visibility: hidden;
+  color: white;
 }
 
 @keyframes pop {
@@ -134,6 +138,15 @@ h6 {
 .m-80 {
   margin-top: 80px;
   margin-bottom: 80px;
+}
+.p-150 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.cover_norepeat_center {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 select::after {
@@ -257,7 +270,7 @@ main a:hover {
   height: auto;
   margin: auto auto;
 }
-#mega_menu div:nth-child(3){
+#mega_menu div:nth-child(3) {
   padding-left: 50px;
 }
 .mega_menu .nav-item {
@@ -400,16 +413,16 @@ Blog Section Style Here
  *************************** */
 .blog_news_container {
   background-image: url("../images/leaf__shape.png"),
-  linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.15),
-    rgba(251, 199, 226, 0.15),
-    rgba(220, 217, 254, 0.15)
-  );
-background-position: right;
-background-repeat: no-repeat;
-background-size: contain;
-padding: 80px 0;
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15)
+    );
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 0;
 }
 
 .next_prev {
@@ -428,8 +441,7 @@ padding: 80px 0;
 }
 
 .blog_news_container .swiper-slide {
-  overflow-y: scroll;
-  height: 330px;
+  height: 400px;
 }
 
 .blog,
@@ -634,7 +646,7 @@ select:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(#6c3469eb, #6c3469eb),
-    url("images/home\ slider\ 5.jpg");
+    url("../images/Hero_bg-1.jpg");
 }
 
 .quick_links a {
@@ -657,11 +669,13 @@ select:focus {
  **************************/
 .cta_container {
   background-image: linear-gradient(#202052bb, #202052b8),
-    url("images/donation.jpg");
+    url("../images/staff\ bg.jpg");
+  box-shadow: #A3539F 5px 5px, #a3539fa7 10px 10px, #a3539f73 15px 15px, #a3539f54 20px 20px, #a3539f17 25px 25px, #a24e9e17 30px 30px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0px;
+  border-radius: 15px;
 }
 
 .countdown_container li {
@@ -713,6 +727,9 @@ footer a {
   transition: 0.3s all;
   width: fit-content;
 }
+.Usefull_links {
+  padding-left: 30px;
+}
 
 .Usefull_links a {
   margin: 10px 0px;
@@ -736,15 +753,10 @@ Calender Hero Section Here
 .calender_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-1.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Calender Hero Section End
 ****************************** */
-
 
 /*********************************************************************************************************************
                                                        Overview Page All CSS Here
@@ -756,22 +768,10 @@ Calender Hero Section End
 .overview_hero_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-5.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /**********************************
   Hero Container Style End 
   **********************************/
-
-/***************************************
- Gallery Section Style Here 
- *****************************************/
-
-/************************************
- Gallery Section Style End 
- **************************************/
 
 /**************************************************************************************************************************
                                              Small Learning Community (SLC) Overview 
@@ -783,10 +783,6 @@ Calender Hero Section End
 .slc_hero_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-4.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /*******************************
    SLC Hero Section Style end 
@@ -813,10 +809,6 @@ Calender Hero Section End
 .CCO_hero_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-3.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /*******************************
  CCO Hero Section Style End
@@ -831,10 +823,6 @@ Calender Hero Section End
 .sel_conatainer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-2.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /********************************
  SEL Hero Section Style End
@@ -872,10 +860,6 @@ Calender Hero Section End
 .bell_schedule_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-5.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 table {
   width: 100% !important;
@@ -917,10 +901,6 @@ Morning Announcement Hero Section Here
 .announcement_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-6.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Morning Announcement Hero Section End
@@ -940,10 +920,6 @@ Clubs Hero Section Here
 .club_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-4.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Clubs Hero Section End
@@ -962,10 +938,6 @@ Sports Hero Section Here
 .sports_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-5.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Sports Hero Section End
@@ -981,10 +953,6 @@ Student Resource Hero Section Here
 .student_resoueces_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-1.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Student Resource Hero Section End
@@ -1031,10 +999,6 @@ Students Transcripts Hero Section Here
 .transcripts_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-3.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Students Transcripts Hero Section End
@@ -1064,10 +1028,6 @@ Family Resources Hero Section Here
 .family_resource_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-4.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Family Resources Hero Section End
@@ -1095,10 +1055,6 @@ Staff Directory Hero Section Here
 .staff_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-5.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Staff Directory Hero Section End
@@ -1134,10 +1090,6 @@ PTA/SLT Information Hero Section Here
 .pta-slt_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-6.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 PTA/SLT Information Hero Section End
@@ -1178,10 +1130,6 @@ PTA/SLT Information Content Style Here
 .form_staff_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-3.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
  Form For Staff Hero Section End
@@ -1197,10 +1145,6 @@ PTA/SLT Information Content Style Here
 .teacher_infohub_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-4.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
  Teacher Infohub Hero Section End
@@ -1240,10 +1184,6 @@ Admin InfoHub Hero Section Here
 .admin_infohub_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-5.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Admin InfoHub Hero Section End
@@ -1268,7 +1208,7 @@ Admin InfoHub Content Section Start
 .forms_links li {
   margin: 10px 0;
 }
-.forms_links{
+.forms_links {
   border-top: 5px solid #6c3469;
 }
 /* ****************************
@@ -1285,10 +1225,6 @@ Courses Hero Section Here
 .Courses_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-6.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Courses Hero Section End
@@ -1304,10 +1240,6 @@ Wellcome Hero Section Here
 .Wellcome_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-1.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Wellcome Hero Section End
@@ -1323,10 +1255,6 @@ Hillcrest News Hero Section Here
 .hillcrest_news_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-2.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Hillcrest News Hero Section End
@@ -1346,10 +1274,6 @@ Senior Tab Hero Section Here
 .senior_tab_hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-3.jpg");
-  padding: 150px 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* ****************************
 Senior Tab Hero Section End
