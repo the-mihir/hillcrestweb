@@ -142,7 +142,7 @@ body a {
   color: var(--primary-color);
   transition: 0.3s all;
 }
-body a:hover {
+main a:hover {
   color: #05056e;
 }
 
@@ -256,7 +256,9 @@ body a:hover {
   height: auto;
   margin: auto auto;
 }
-
+#mega_menu div:nth-child(3){
+  padding-left: 50px;
+}
 .mega_menu .nav-item {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.125) !important;
 }
@@ -712,6 +714,26 @@ footer a {
 /********************************************
  Footer Style End 
  ********************************************/
+
+/* **************************************************************************************************************
+                                          Calender Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Calender Hero Section Here
+****************************** */
+.calender_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-1.jpg");
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ****************************
+Calender Hero Section End
+****************************** */
+
 
 /*********************************************************************************************************************
                                                        Overview Page All CSS Here
