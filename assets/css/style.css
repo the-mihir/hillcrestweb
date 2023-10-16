@@ -737,6 +737,17 @@ select:focus {
 /*********************************************
   Newsletter And Donation Section Style Here 
  *********************************************/
+
+
+.newsletter_donation_container {
+  padding: 80px 0px;
+  background-image: url('../images/line_shope_1.svg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .quick_links {
   width: 100%;
   height: fit-content;
@@ -764,7 +775,6 @@ select:focus {
  CTA Button 
  **************************/
 .cta_container {
-
   background-image: url("../images/graduation_fest.webp");
   transform: translateY(30%);
   background-position: center center;
@@ -772,6 +782,7 @@ select:focus {
   background-size: cover;
   padding: 100px 0px;
   border-radius: 15px;
+  margin-top: -130px;
 
 }
 
