@@ -659,6 +659,11 @@ select:focus {
 .quick_links a:hover {
   color: rgb(201, 192, 192) !important;
 }
+.Protocols .row{
+  flex-wrap: nowrap;
+}
+
+
 
 /*********************************************
   Newsletter And Donation Section Style End

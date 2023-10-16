@@ -233,6 +233,9 @@
     flex-wrap: wrap !important;
     gap: 0 !important;
   }
+  .Protocols .row{
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 1400px) {
