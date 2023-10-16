@@ -18,6 +18,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /************************************ 
 Root Related Style Here 
 ************************************/
@@ -137,6 +141,7 @@ h6 {
 .modal_btn:hover i {
   transform: translateX(15px);
   visibility: hidden;
+  color: white;
 }
 
 @keyframes pop {
@@ -170,9 +175,15 @@ h6 {
   margin-bottom: 80px;
 }
 
-.p-80 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+.p-150 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.cover_norepeat_center {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 select::after {
@@ -546,10 +557,15 @@ Blog Section Style Here
 }
 
 .blog_news_container {
-  background: var(--gradient-6);
+  background-image: url("../images/leaf__shape.png"),
+    linear-gradient(to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15));
   background-position: right;
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 0;
 }
 
 .next_prev {
@@ -568,8 +584,7 @@ Blog Section Style Here
 }
 
 .blog_news_container .swiper-slide {
-  overflow-y: scroll;
-  height: 330px;
+  height: 400px;
 }
 
 ::-webkit-scrollbar {
@@ -732,9 +747,7 @@ select:focus {
   width: 100%;
   height: fit-content;
   background-image: linear-gradient(#6c3469eb, #6c3469eb),
-    url("../images/Quick_links\ \(1\).webp");
-  background-position: center;
-  background-size: cover;
+    url("../images/Hero_bg-1.jpg");
 }
 
 .quick_links a {
@@ -757,14 +770,15 @@ select:focus {
  CTA Button 
  **************************/
 .cta_container {
-  background-image:
-    url("../images/graduation_fest.webp");
-  transform: translateY(20%);
-  background-size: cover;
+
+  background-image: linear-gradient(#202052bb, #202052b8),
+    url("../images/staff\ bg.jpg");
+  box-shadow: #A3539F 5px 5px, #a3539fa7 10px 10px, #a3539f73 15px 15px, #a3539f54 20px 20px, #a3539f17 25px 25px, #a24e9e17 30px 30px;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0px;
-  border-radius: 8px;
+  border-radius: 15px;
 
 }
 
@@ -823,6 +837,10 @@ footer a {
   width: fit-content;
 }
 
+.Usefull_links {
+  padding-left: 30px;
+}
+
 .Usefull_links a {
   margin: 10px 0px;
 }
@@ -830,3 +848,595 @@ footer a {
 .Usefull_links a:hover {
   margin-left: 5px;
 }
+
+
+/********************************************
+ Footer Style End 
+ ********************************************/
+
+/* **************************************************************************************************************
+                                          Calender Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Calender Hero Section Here
+****************************** */
+.calender_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-1.jpg");
+}
+
+/* ****************************
+Calender Hero Section End
+****************************** */
+
+/*********************************************************************************************************************
+                                                       Overview Page All CSS Here
+ ********************************************************************************************************************* */
+
+/***********************************
+  Hero Container Style Here 
+  ************************************/
+.overview_hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+}
+
+/**********************************
+  Hero Container Style End 
+  **********************************/
+
+/**************************************************************************************************************************
+                                             Small Learning Community (SLC) Overview 
+  **************************************************************************************************************************/
+
+/*****************************
+   SLC Hero Section Style here 
+   ****************************/
+.slc_hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-4.jpg");
+}
+
+/*******************************
+   SLC Hero Section Style end 
+   ******************************/
+
+/********************************
+     Resources Section Style Here 
+     ******************************/
+.resources_box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/********************************
+     Resources Section Style End 
+   ********************************/
+
+/**************************************************************************************************************
+                                                 College And Career Offices Page All Css Here
+   ************************************************************************************************************** */
+/*******************************
+ CCO Hero Section Style Here 
+ ********************************/
+.CCO_hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-3.jpg");
+}
+
+/*******************************
+ CCO Hero Section Style End
+***************************** */
+
+/* ************************************************************************************************************
+                                   Social And Emotional Learning Page All CSS Here
+************************************************************************************************************** */
+/********************************
+ SEL Hero Section Style Here
+****************************** */
+.sel_conatainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-2.jpg");
+}
+
+/********************************
+ SEL Hero Section Style End
+****************************** */
+
+/***********************
+  About Section Style Here 
+  ***************************/
+.sel_about_container {
+  padding: 80px 0px;
+  background-color: #f2f2f2;
+}
+
+.sel_about_btns a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.sel_about_btns a:hover {
+  background-color: #713d6e;
+  color: white;
+}
+
+/***********************
+  About Section Style End 
+  ***************************/
+/**************************************************************************************************************                                           Bell Schedule Page All CSS Here
+  ****************************************************************************************************************/
+/***********************************
+ Bell Schedule Hero Section Here
+********************************* */
+.bell_schedule_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+}
+
+table {
+  width: 100% !important;
+}
+
+.schedule_container table,
+thead,
+td,
+th {
+  border: 1px solid #90a4ae;
+  border-collapse: collapse;
+  text-align: center;
+  transition: 0.3s all;
+}
+
+.schedule_container table thead tr th {
+  padding: 20px 0px !important;
+}
+
+td,
+th {
+  padding: 10px 0;
+}
+
+tr:hover {
+  background-color: #a3539f !important;
+  color: white;
+  cursor: pointer;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/***********************************
+ Bell Schedule Hero Section Here
+********************************* */
+
+/* ****************************************************************************************************************
+                                      Morning Announcement Page All Css Here
+***************************************************************************************************************** */
+/* ****************************
+Morning Announcement Hero Section Here
+****************************** */
+.announcement_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-6.jpg");
+}
+
+/* ****************************
+Morning Announcement Hero Section End
+****************************** */
+
+.morning_tbody td {
+  text-align: start;
+  padding: 20px;
+}
+
+/* ****************************************************************************************************************
+                                     Clubs Page All Css Here
+***************************************************************************************************************** */
+/* ****************************
+Clubs Hero Section Here
+****************************** */
+.club_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-4.jpg");
+}
+
+/* ****************************
+Clubs Hero Section End
+****************************** */
+.club_table td p:nth-child(1) {
+  font-weight: 700;
+}
+
+/* **************************************************************************************************************
+                                          Sports Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Sports Hero Section Here
+****************************** */
+.sports_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+}
+
+/* ****************************
+Sports Hero Section End
+****************************** */
+
+/* **************************************************************************************************************
+                                          Student Resource Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Student Resource Hero Section Here
+****************************** */
+.student_resoueces_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-1.jpg");
+}
+
+/* ****************************
+Student Resource Hero Section End
+****************************** */
+
+/* ****************************
+ Resources Section Start End
+****************************** */
+.student_resources {
+  background-image: url("../images/leaf__shape.png"),
+    linear-gradient(to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15));
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 0;
+}
+
+.resource_content {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.resource_content li {
+  margin: 10px 0;
+}
+
+#helpfulResources li {
+  margin: 10px 0;
+}
+
+/* ****************************
+ Resources Section Start End
+****************************** */
+
+/* **************************************************************************************************************
+                                          Students Transcripts Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Students Transcripts Hero Section Here
+****************************** */
+.transcripts_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-3.jpg");
+}
+
+/* ****************************
+Students Transcripts Hero Section End
+****************************** */
+
+/* ****************************
+ Transcript Content Section Style Here
+****************************** */
+.transcript_content {
+  padding: 80px 0;
+}
+
+.transcript_box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* ****************************
+ Transcript Content Section Style End
+****************************** */
+
+/* **************************************************************************************************************
+                                          Family Resources Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Family Resources Hero Section Here
+****************************** */
+.family_resource_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-4.jpg");
+}
+
+/* ****************************
+Family Resources Hero Section End
+****************************** */
+
+/*******************************************
+ Family resources Content Style Here 
+ *******************************************/
+.quick_link {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 15px;
+}
+
+/******************************************
+ Family resources Content Style Here 
+ ******************************************/
+
+/* **************************************************************************************************************
+                                          Faculty And Staff Directory Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Staff Directory Hero Section Here
+****************************** */
+.staff_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+}
+
+/* ****************************
+Staff Directory Hero Section End
+****************************** */
+
+/*******************************************
+Staff Directory Content Style Here 
+ *******************************************/
+.staff_container .course_container {
+  padding: 80px 0;
+  background-image: linear-gradient(to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15)) !important;
+}
+
+.staff_container .course_container .staff_box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/******************************************
+Staff Directory Content Style Here 
+ ******************************************/
+
+/* **************************************************************************************************************
+                                          PTA/SLT Information Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+PTA/SLT Information Hero Section Here
+****************************** */
+.pta-slt_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-6.jpg");
+}
+
+/* ****************************
+PTA/SLT Information Hero Section End
+****************************** */
+
+/*******************************************
+PTA/SLT Information Content Style Here 
+ *******************************************/
+.pta-slt_information {
+  padding: 80px 0;
+  background-image: linear-gradient(to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15)) !important;
+}
+
+.pta-meet-time_content {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.pta-quick-link_container,
+.pta_calender {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/******************************************
+PTA/SLT Information Content Style Here 
+ ******************************************/
+
+/* **************************************************************************************************************
+                                          Form For Staff Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+ Form For Staff Hero Section Here
+****************************** */
+.form_staff_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-3.jpg");
+}
+
+/* ****************************
+ Form For Staff Hero Section End
+****************************** */
+
+/* **************************************************************************************************************
+                                         Teacher Infohub Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+ Teacher Infohub Hero Section Here
+****************************** */
+.teacher_infohub_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-4.jpg");
+}
+
+/* ****************************
+ Teacher Infohub Hero Section End
+****************************** */
+
+/* ****************************
+ Teacher Infohub Content Section Start
+****************************** */
+
+.teacher_infohub_content {
+  padding: 80px 0;
+  background-image: url("../images/leaf__shape.png"),
+    linear-gradient(to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15));
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.teacher_infohub_content ul li {
+  margin: 10px 0;
+}
+
+/* ****************************
+ Teacher Infohub Content Section End
+****************************** */
+
+/* **************************************************************************************************************
+                                         Admin InfoHub Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Admin InfoHub Hero Section Here
+****************************** */
+.admin_infohub_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-5.jpg");
+}
+
+/* ****************************
+Admin InfoHub Hero Section End
+****************************** */
+
+/* ****************************
+Admin InfoHub Content Section Start
+****************************** */
+
+.admin-infohub {
+  background-image: linear-gradient(to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15));
+  padding: 80px 0;
+}
+
+.admin-infohub tr:hover a {
+  color: white !important;
+}
+
+.forms_links li {
+  margin: 10px 0;
+}
+
+.forms_links {
+  border-top: 5px solid #6c3469;
+}
+
+/* ****************************
+Admin InfoHub Content Section End
+****************************** */
+
+/* **************************************************************************************************************
+                                        Courses Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Courses Hero Section Here
+****************************** */
+.Courses_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-6.jpg");
+}
+
+/* ****************************
+Courses Hero Section End
+****************************** */
+
+/* **************************************************************************************************************
+                                        Wellcome Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Wellcome Hero Section Here
+****************************** */
+.Wellcome_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-1.jpg");
+}
+
+/* ****************************
+Wellcome Hero Section End
+****************************** */
+
+/* **************************************************************************************************************
+                                        Hillcrest News Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Hillcrest News Hero Section Here
+****************************** */
+.hillcrest_news_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-2.jpg");
+}
+
+/* ****************************
+Hillcrest News Hero Section End
+****************************** */
+
+.news_container .row {
+  flex-wrap: nowrap !important;
+}
+
+/* **************************************************************************************************************
+                                        Senior Tab Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+Senior Tab Hero Section Here
+****************************** */
+.senior_tab_hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-3.jpg");
+}
+
+/* ****************************
+Senior Tab Hero Section End
+****************************** */
+
+.senior_container {
+  background-image: url("../images/leaf__shape.png"),
+    linear-gradient(to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15));
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 0;
+}
+
+>>>>>>>dev_jr

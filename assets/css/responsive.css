@@ -17,7 +17,7 @@
     right: 20px;
   }
   .sm-d-none {
-    display: none;
+    display: none !important;
   }
   .navbar {
     top: 0px;
@@ -136,32 +136,55 @@
   .sports_content .schedule_container {
     overflow-x: scroll;
   }
-  .sports_content .schedule_container th {
+  .schedule_container table thead tr th {
     white-space: nowrap;
     padding: 20px !important;
   }
   .sports_content p {
     width: 100% !important;
   }
-  .sports_content .nav-pills{
+  .sports_content .nav-pills {
     display: grid !important;
     grid-template-columns: auto auto !important;
+    justify-content: center;
   }
-  .sports_content .nav-pills .nav-item .nav-link {
+  .nav-pills .nav-item .nav-link {
     font-size: 12px;
+    text-align: center;
+  }
+  .sports_content .nav-pills li {
+    margin: auto 0;
   }
   .schedule_container .p_bg_color {
-    background-color: #713d6e;
+    background-color: #713d6e !important;
   }
   .club_table td p:nth-child(1) {
     white-space: nowrap;
   }
-  .meet-title{
+  .meet-title {
     display: flex;
     flex-direction: column;
   }
-  .news_container .row{
+  .news_container .row {
     flex-wrap: wrap !important;
+  }
+  .schedule_container {
+    overflow-x: scroll;
+  }
+  .senior_container,
+  .pta-slt_information .p_bg_color {
+    background-color: #713d6e !important;
+  }
+  .admin-infohub .nav-pills li {
+    margin: auto auto;
+  }
+  .pta-slt_information .nav-pills li {
+    margin: auto auto;
+  }
+  .pta-meet-time_content p:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 0 !important;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -192,8 +215,6 @@
     flex-direction: column;
   }
   .filter_tabs .nav-link {
-
-
     font-size: 10px !important;
     margin: 0;
     padding: 10px 10px !important;
@@ -208,7 +229,7 @@
   .sports_content p {
     width: 100% !important;
   }
-  .news_container .row{
+  .news_container .row {
     flex-wrap: wrap !important;
     gap: 0 !important;
   }
