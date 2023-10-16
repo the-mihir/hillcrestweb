@@ -17,7 +17,10 @@ function myFunction() {
 // Home Slider
 var swiper = new Swiper(".hero_sliderr", {
   spaceBetween: 30,
-  effect: "fade",
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
