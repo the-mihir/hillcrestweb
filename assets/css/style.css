@@ -86,6 +86,7 @@ h6 {
 .primary_btn:hover {
   background-color: #6c3469;
   animation: pop 0.3s linear 1;
+  color: white;
 }
 .modal_btn {
   border: none;
