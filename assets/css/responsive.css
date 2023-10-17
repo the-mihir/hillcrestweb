@@ -186,6 +186,12 @@
     flex-direction: column;
     gap: 0 !important;
   }
+  .resourch_tabs{
+    flex-direction: column;
+  }
+  .resourch_tabs .border-right{
+    border: none !important;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .navbar-toggler {

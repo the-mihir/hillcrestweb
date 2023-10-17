@@ -870,6 +870,9 @@ Calender Hero Section Here
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
     url("../images/Hero_bg-1.jpg");
 }
+ #calendar tr:hover{
+  background-color: transparent !important;
+ }
 
 /* ****************************
 Calender Hero Section End
