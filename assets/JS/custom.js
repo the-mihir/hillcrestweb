@@ -66,6 +66,22 @@ var swiper = new Swiper(".blogThree", {
     disableOnInteraction: false,
   },
 });
+var swiper = new Swiper(".memberSlide", {
+  spaceBetween: 30,
+  effect: "fade",
+  fadeEffect: {
+    crossFade: true,
+  },
+  navigation: {
+    nextEl: ".mem-next",
+    prevEl: ".mem-prev",
+  },
+  loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+});
 // Student Resources Slider
 var swiper = new Swiper(".Resources", {
   loop: true,

@@ -172,7 +172,7 @@
     overflow-x: scroll;
   }
   .senior_container,
-  .pta-slt_information .p_bg_color {
+  .pta-slt_information, .member_detail .p_bg_color {
     background-color: #713d6e !important;
   }
   .admin-infohub .nav-pills li {
@@ -192,6 +192,14 @@
   .resourch_tabs .border-right{
     border: none !important;
   }
+.member_detail .tab-content .row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.member_detail .tab-content .row .col{
+  width: 100% !important;
+}
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .navbar-toggler {
