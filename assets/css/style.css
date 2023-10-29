@@ -1482,3 +1482,55 @@ HHA Hero Section End
 .member_detail .nav-pills button {
   margin: 0;
 }
+/* **************************************************************************************************************
+                                        TEACHERS OF TOMORROW Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+HHA Hero Section Here
+****************************** */
+.tot_hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-2.jpg");
+}
+
+/* ****************************
+HHA Hero Section End
+****************************** */
+.mem_container {
+  background-image: url("../images/leaf__shape.png"),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.15),
+      rgba(251, 199, 226, 0.15),
+      rgba(220, 217, 254, 0.15)
+    );
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+.gallery__item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.gallery__item p {
+  font-size: 12px;
+}
+.gallery__item img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

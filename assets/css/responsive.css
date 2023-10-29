@@ -172,7 +172,7 @@
     overflow-x: scroll;
   }
   .senior_container,
-  .pta-slt_information, .member_detail .p_bg_color {
+  .pta-slt_information, .member_detail, .mem_container .p_bg_color {
     background-color: #713d6e !important;
   }
   .admin-infohub .nav-pills li {
