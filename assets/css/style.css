@@ -1497,6 +1497,10 @@ HHA Hero Section Here
 /* ****************************
 HHA Hero Section End
 ****************************** */
+
+/*******************************
+ Member Info Section Style Here
+****************************** */
 .mem_container {
   background-image: url("../images/leaf__shape.png"),
     linear-gradient(
@@ -1533,4 +1537,26 @@ HHA Hero Section End
   height: 100%;
   object-fit: cover;
   width: 100%;
+}
+/*******************************
+ Member Info Section Style End
+****************************** */
+/* **************************************************************************************************************
+                                        Performing & Visual Arts SLC Page All CSS Here
+**************************************************************************************************************** */
+
+/* ****************************
+HHA Hero Section Here
+****************************** */
+.pva_hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.413)),
+    url("../images/Hero_bg-2.jpg");
+}
+
+/* ****************************
+HHA Hero Section End
+****************************** */
+.partner_gallery img{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
