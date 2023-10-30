@@ -79,6 +79,7 @@ strong{
 
 a {
   color: var(--white);
+  text-decoration: none;
   outline: none;
   transition: 0.3s;
 }
@@ -276,6 +277,7 @@ main a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .rbt-btn:hover.hover-icon-reverse .btn-icon {
