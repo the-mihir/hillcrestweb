@@ -204,6 +204,9 @@
   display: flex !important;
   flex-direction: column !important;
 }
+.res_content{
+  flex-wrap: wrap;
+}
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .navbar-toggler {
