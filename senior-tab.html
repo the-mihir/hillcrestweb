@@ -1,865 +1,579 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Senior Student</title>
-    <link
-      rel="shortcut icon"
-      href="Assets/images/Main Logo.png"
-      type="image/x-icon"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
 
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="top_nav py-2 sm-d-none">
-        <div class="container d-flex">
-          <div class="d-flex align-items-center gap-3">
-            <a
-              class="d-flex align-items-center text-decoration-none gap-2 text-white"
-              href="mailto:hillcrest@gmail.com"
-              ><span><i class="fa-regular fa-envelope"></i></span>
-              <span>hillcrest@gmail.com</span></a
-            >
-            <a
-              class="d-flex align-items-center text-decoration-none gap-2 text-white"
-              href="tel:(718) 658-5407"
-              ><span><i class="fa-solid fa-phone-volume"></i></span
-              ><span>(718) 658-5407</span></a
-            >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Senior Student</title>
+  <link rel="shortcut icon" href="Assets/images/Main Logo.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="top_nav py-2 sm-d-none">
+      <div class="container d-flex">
+        <div class="d-flex align-items-center gap-3">
+          <a class="d-flex align-items-center text-decoration-none gap-2 text-white"
+            href="mailto:hillcrest@gmail.com"><span><i class="fa-regular fa-envelope"></i></span>
+            <span>hillcrest@gmail.com</span></a>
+          <a class="d-flex align-items-center text-decoration-none gap-2 text-white" href="tel:(718) 658-5407"><span><i
+                class="fa-solid fa-phone-volume"></i></span><span>(718) 658-5407</span></a>
+        </div>
+        <div class="d-flex align-items-center ms-auto">
+          <span class="text-white">Follow Us On -</span>
+          <a class="d-flex align-items-center text-decoration-none gap-2 text-white"
+            href="https://twitter.com/HillcrestHSNYC"><span><i class="fa-brands fa-x-twitter"></i></span></a>
+          <a class="d-flex align-items-center text-decoration-none gap-2 text-white"
+            href="https://twitter.com/HillcrestHSNYC"><span><i class="fa-brands fa-facebook-f"></i></span></a>
+          <a class="d-flex align-items-center text-decoration-none gap-2 text-white"
+            href="https://twitter.com/HillcrestHSNYC"><span><i class="fa-brands fa-instagram"></i></span></a>
+        </div>
+      </div>
+    </div>
+
+    <nav id="navbar" class="navbar navbar-expand-lg align-items-center">
+      <div class="container position-relative">
+        <a class="text-decoration-none text-white" href="/"><img src="./Assets/images/Main Logo.png" alt=""
+            width="50px" />
+          Hillcrest High School
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fs-1 text-white"></i></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+              <i class="fa-solid fa-xmark text-white fs-3"></i>
+            </button>
           </div>
-          <div class="d-flex align-items-center ms-auto">
-            <span class="text-white">Follow Us On -</span>
-            <a
-              class="d-flex align-items-center text-decoration-none gap-2 text-white"
-              href="https://twitter.com/HillcrestHSNYC"
-              ><span><i class="fa-brands fa-x-twitter"></i></span
-            ></a>
-            <a
-              class="d-flex align-items-center text-decoration-none gap-2 text-white"
-              href="https://twitter.com/HillcrestHSNYC"
-              ><span><i class="fa-brands fa-facebook-f"></i></span
-            ></a>
-            <a
-              class="d-flex align-items-center text-decoration-none gap-2 text-white"
-              href="https://twitter.com/HillcrestHSNYC"
-              ><span><i class="fa-brands fa-instagram"></i></span
-            ></a>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ABOUT US
+                </a>
+                <ul class="dropdown-menu p_bg_color pe-3">
+                  <li>
+                    <a class="dropdown-item text-white mt-2" href="overview.html">High School Overview</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item  text-white mt-2" href="slc.html">Small Learning Community (SLC)
+                      Overview</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item  text-white mt-2" href="staff-directory.html">Faculty & Staff Directory</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white mt-2" href="https://www.schools.nyc.gov/schools/Q505">Review Our
+                      Data</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="calender.html">CALENDER</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  GUIDANCE DEPARTMENT
+                </a>
+                <ul class="dropdown-menu p_bg_color pe-3">
+                  <li>
+                    <a class="dropdown-item text-white mt-2"
+                      href="https://docs.google.com/document/d/1ON3BA5-RTaOS6pVpNYbjpsBbETgYeWqR/edit">Guidance
+                      Resources</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white mt-2"
+                      href="https://docs.google.com/document/d/1ON3BA5-RTaOS6pVpNYbjpsBbETgYeWqR/edit">Mental Health
+                      Resources</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item  text-white mt-2" href="collage-career-office.html">College And Career
+                      Office</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white mt-2"
+                      href=" https://drive.google.com/file/d/1mSNp8elEmaBCgBM6SPIgRbTTAK9-BRvy/view">Recruitment</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active_link dropdown-toggle text-white" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  MORE
+                </a>
+                <ul class="dropdown-menu p_bg_color mega_menu" id="mega_menu">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                      <h6 class="text-white fw-bold">For Students</h6>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href=" https://docs.google.com/forms/d/e/1FAIpQLSdKknVnDdoMBXS_BdUEpMz4nk4ywrnVsxJU_Fwb7O4JPsLMCA/formrestricted">Student
+                          AP Course Application Form</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="transcript-request.html">Transcript
+                          Request</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://docs.google.com/document/d/1GsLFkSdTN7ZOOS2-7l36zLm4pqxQkBp2RK3ikC0uG2c/edit">Call
+                          Phone Policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/site/fileLinks/ae1ad3e3-9efc-4b11-bb25-0f39c7ad4b21?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=2012790894&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=%3Bfilename%3D%22PSAL%2520SPECTOR%2520POLICY%25202022-2023.pdf%22&response-content-type=application%2Fpdf&Signature=jwdu%2FikPDNQsDqwIkEy3VRwsX9Q%3D">Spectator
+                          Policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href=" https://docs.google.com/document/d/1BkIL0zx6a-f2gJFV57pWY8_y-jYw2FemCgUQVh4rhvA/edit">
+                          Hillcrest Grading Policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href=" https://docs.google.com/forms/d/e/1FAIpQLSfD1r1RelFNbm3vZS6bIWgdk5DoXQRSri10XW-gNE90PdcjSw/formrestricted">Covid-19
+                          Student Reporting</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="morning-announcment.html">Morning
+                          Announcements</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="bell-schedule.html">Bell Schedule</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="calender.html">Calender</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href=" https://www.hillcrestweb.com/marking_period">Marking Periods 2023-2024</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="clubs.html">Clubs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="sports.html">Sports</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://sites.google.com/schools.nyc.gov/hillcrest-hs-library/home">HillCrest
+                          Library</a>
+                      </li>
+                      <li class="nav-item border-none">
+                        <a class="nav-link text-white" aria-current="page" href="student-resources.html">Students
+                          Resourch</a>
+                      </li>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                      <h6 class="text-white fw-bold">For Families</h6>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="calender.html">Calender</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://www.myschoolapps.com/Home/PickDistrict">Family Income Survey From / Lunch
+                          Applications</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="family-resource.html">Family
+                          Resourch</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://www.schools.nyc.gov/learning/student-journey/graduation-requirements">High
+                          School Graduation Requierments</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="pta-slt-information.html">PTA/SLT
+                          Information</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://docs.google.com/document/d/1eyP33aBhC5f2n4FPLp8l9M7ReG3AtsfXOjOnklJeTq8/edit">Student
+                          And Familes School Handbook</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href=" https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/site/fileLinks/cc03af2d-0dda-4c88-b3c2-52b906999a7a?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=2012791310&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=%3Bfilename%3D%22PSAL%2520SPECTOR%2520POLICY%25202022-2023.pdf%22&response-content-type=application%2Fpdf&Signature=beqBDMB9cgQF%2FSZeGwwe5BhG1O4%3D">Hillcrest
+                          Spectator Policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://docs.google.com/document/d/1BkIL0zx6a-f2gJFV57pWY8_y-jYw2FemCgUQVh4rhvA/edit">Hillcrest
+                          Grading Policy</a>
+                      </li>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                      <h6 class="text-white fw-bold">For Staff</h6>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="calender.html">Calender</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="staff-form.html">Forms for Staff</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href=" https://drive.google.com/drive/folders/1GFDfI3iC4esFCqkw0UNa8J9GfqpZWeOD">Tech
+                          Instructional Clips</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="teacher-infohub.html">Teacher
+                          InfoHub</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="admin-infohub.html">Admin InfoHub</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href=" https://docs.google.com/document/d/1BkIL0zx6a-f2gJFV57pWY8_y-jYw2FemCgUQVh4rhvA/edit">Hillcrest
+                          Grading Policy</a>
+                      </li>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
+                      <h6 class="text-white fw-bold">More Pages</h6>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="sel.html">Social & Emotional Learning
+                          (SEL)</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://www.flipsnack.com/thecrestpaper/the-crest-spring-2023-edition.html">School
+                          Newspaper</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="new-admit.html">Wellcome To HillCrest
+                          For New Admit</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="hillcrest-news.html">Hillcrest In the
+                          News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page"
+                          href="https://twitter.com/HillcrestHSNYC">Twitter</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active_link text-white" aria-current="page" href="senior-tab.html">Senior
+                          Tab</a>
+                      </li>
+                      <h6 class="text-white fw-bold mt-2">
+                        College Info Now
+                      </h6>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="course.html">Courses</a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-
-      <nav id="navbar" class="navbar navbar-expand-lg align-items-center">
-        <div class="container position-relative">
-          <a class="text-decoration-none text-white" href="#"
-            ><img src="Assets/images/Main Logo.png" alt="" width="50px" />
-            Hillcrest High School
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"
-              ><i class="fa-solid fa-bars fs-1 text-white"></i
-            ></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              >
-                <i class="fa-solid fa-xmark text-white fs-3"></i>
-              </button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link text-white"
-                    aria-current="page"
-                    href="index.html"
-                    >HOME</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    ABOUT US
-                  </a>
-                  <ul class="dropdown-menu p_bg_color pe-3">
-                    <li>
-                      <a
-                        class="dropdown-item text-white mt-2"
-                        href="overview.html"
-                        >High School Overview</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item  text-white mt-2" href="slc.html"
-                        >Small Learning Community (SLC) Overview</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item  text-white mt-2"
-                        href="staff-directory.html"
-                        >Faculty & Staff Directory</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item text-white mt-2" href="https://www.schools.nyc.gov/schools/Q505"
-                        >Review Our Data</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link text-white"
-                    aria-current="page"
-                    href="calender.html"
-                    >CALENDER</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    GUIDANCE DEPARTMENT
-                  </a>
-                  <ul class="dropdown-menu p_bg_color pe-3">
-                    <li>
-                      <a class="dropdown-item text-white mt-2" href="https://docs.google.com/document/d/1ON3BA5-RTaOS6pVpNYbjpsBbETgYeWqR/edit"
-                        >Guidance Resources</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item text-white mt-2" href="https://docs.google.com/document/d/1ON3BA5-RTaOS6pVpNYbjpsBbETgYeWqR/edit"
-                        >Mental Health Resources</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item  text-white mt-2"
-                        href="collage-career-office.html"
-                        >College And Career Office</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item text-white mt-2" href=" https://drive.google.com/file/d/1mSNp8elEmaBCgBM6SPIgRbTTAK9-BRvy/view"
-                        >Recruitment</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link active_link dropdown-toggle text-white"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    MORE
-                  </a>
-                  <ul class="dropdown-menu p_bg_color mega_menu" id="mega_menu">
-                    <div class="row">
-                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
-                        <h6 class="text-white fw-bold">For Students</h6>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href=" https://docs.google.com/forms/d/e/1FAIpQLSdKknVnDdoMBXS_BdUEpMz4nk4ywrnVsxJU_Fwb7O4JPsLMCA/formrestricted"
-                            >Student AP Course Application Form</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="transcript-request.html"
-                            >Transcript Request</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://docs.google.com/document/d/1GsLFkSdTN7ZOOS2-7l36zLm4pqxQkBp2RK3ikC0uG2c/edit"
-                            >Call Phone Policy</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/site/fileLinks/ae1ad3e3-9efc-4b11-bb25-0f39c7ad4b21?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=2012790894&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=%3Bfilename%3D%22PSAL%2520SPECTOR%2520POLICY%25202022-2023.pdf%22&response-content-type=application%2Fpdf&Signature=jwdu%2FikPDNQsDqwIkEy3VRwsX9Q%3D"
-                            >Spectator Policy</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href=" https://docs.google.com/document/d/1BkIL0zx6a-f2gJFV57pWY8_y-jYw2FemCgUQVh4rhvA/edit"
-                            > Hillcrest Grading Policy</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href=" https://docs.google.com/forms/d/e/1FAIpQLSfD1r1RelFNbm3vZS6bIWgdk5DoXQRSri10XW-gNE90PdcjSw/formrestricted"
-                            >Covid-19 Student Reporting</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="morning-announcment.html"
-                            >Morning Announcements</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="bell-schedule.html"
-                            >Bell Schedule</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="calender.html"
-                            >Calender</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href=" https://www.hillcrestweb.com/marking_period"
-                            >Marking Periods 2023-2024</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="clubs.html"
-                            >Clubs</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="sports.html"
-                            >Sports</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://sites.google.com/schools.nyc.gov/hillcrest-hs-library/home"
-                            >HillCrest Library</a
-                          >
-                        </li>
-                        <li class="nav-item border-none">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="student-resources.html"
-                            >Students Resourch</a
-                          >
-                        </li>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
-                        <h6 class="text-white fw-bold">For Families</h6>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="calender.html"
-                            >Calender</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://www.myschoolapps.com/Home/PickDistrict"
-                            >Family Income Survey From / Lunch Applications</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="family-resource.html"
-                            >Family Resourch</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://www.schools.nyc.gov/learning/student-journey/graduation-requirements"
-                            >High School Graduation Requierments</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="pta-slt-information.html"
-                            >PTA/SLT Information</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://docs.google.com/document/d/1eyP33aBhC5f2n4FPLp8l9M7ReG3AtsfXOjOnklJeTq8/edit"
-                            >Student And Familes School Handbook</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href=" https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/site/fileLinks/cc03af2d-0dda-4c88-b3c2-52b906999a7a?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=2012791310&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=%3Bfilename%3D%22PSAL%2520SPECTOR%2520POLICY%25202022-2023.pdf%22&response-content-type=application%2Fpdf&Signature=beqBDMB9cgQF%2FSZeGwwe5BhG1O4%3D"
-                            >Hillcrest Spectator Policy</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://docs.google.com/document/d/1BkIL0zx6a-f2gJFV57pWY8_y-jYw2FemCgUQVh4rhvA/edit"
-                            >Hillcrest Grading Policy</a
-                          >
-                        </li>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
-                        <h6 class="text-white fw-bold">For Staff</h6>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="calender.html"
-                            >Calender</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="staff-form.html"
-                            >Forms for Staff</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href=" https://drive.google.com/drive/folders/1GFDfI3iC4esFCqkw0UNa8J9GfqpZWeOD"
-                            >Tech Instructional Clips</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="teacher-infohub.html"
-                            >Teacher InfoHub</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="admin-infohub.html"
-                            >Admin InfoHub</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href=" https://docs.google.com/document/d/1BkIL0zx6a-f2gJFV57pWY8_y-jYw2FemCgUQVh4rhvA/edit"
-                            >Hillcrest Grading Policy</a
-                          >
-                        </li>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-sm-12 col-xxl-3">
-                        <h6 class="text-white fw-bold">More Pages</h6>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="sel.html"
-                            >Social & Emotional Learning (SEL)</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://www.flipsnack.com/thecrestpaper/the-crest-spring-2023-edition.html"
-                            >School Newspaper</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="new-admit.html"
-                            >Wellcome To HillCrest For New Admit</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="hillcrest-news.html"
-                            >Hillcrest In the News</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link text-white"
-                            aria-current="page"
-                            href="https://twitter.com/HillcrestHSNYC"
-                            >Twitter</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link active_link text-white"
-                            aria-current="page"
-                            href="senior-tab.html"
-                            >Senior Tab</a
-                          >
-                        </li>
-                        <h6 class="text-white fw-bold mt-2">
-                          College Info Now
-                        </h6>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link  text-white"
-                            aria-current="page"
-                            href="course.html"
-                            >Courses</a
-                          >
-                        </li>
-                      </div>
-                    </div>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <!------------------------------
+    </nav>
+  </header>
+  <main>
+    <!------------------------------
          Hero Section Start
     ----------------------------- -->
-      <section class="senior_tab_hero text-white text-center cover_norepeat_center p-150">
-        <div class="container">
-          <h1 class="fw-bold">Senior Student</h1>
-        </div>
-      </section>
-      <!------------------------------
+    <section class="senior_tab_hero text-white text-center cover_norepeat_center p-150">
+      <div class="container">
+        <h1 class="fw-bold">Senior Student</h1>
+      </div>
+    </section>
+    <!------------------------------
          Hero Section End
     ----------------------------- -->
 
-      <!-------------------------------------------------
+    <!-------------------------------------------------
          Student Information Section Here
         ------------------------------------------ -->
-      <section class="senior_container">
-        <div class="container">
-          <div class="row row-gap-4">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="p_bg_color p-4">
-                <h5 class="text-center text-white">
-                  MEET THE 2023-2024 CANDIDATES FOR STUDENT GOVERNMENT
-                </h5>
-              </div>
-              <div class="shadow p-4">
-                <h6 class="fw-bold">
-                  Hillcrest High School Student Government Elections
-                </h6>
-                <p class="fw-bold">Meet the Candidates:</p>
-                <a href="https://sites.google.com/schools.nyc.gov/student-government-elections/home">2023-2024 Candidates for Student Government</a>
-                <button
-                  class="modal_btn mt-3"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#meet"
-                >
-                  Read More
-                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                </button>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="p_bg_color p-4">
-                <h5 class="text-center text-white">SENIOR DUES</h5>
-              </div>
-              <div class="shadow p-4">
-                <p>
-                  <strong>Package 1—</strong> $140.00 money order payable to
-                  HILLCREST HS:
-                </p>
-                <p>
-                  Due date December 1st, 2023 Payment includes Yearbook, jersey,
-                  senior picnic, and any other senior activities we host based
-                  on funds we collect.
-                </p>
-                <button
-                  class="modal_btn mt-3"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#due"
-                >
-                  Read More
-                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                </button>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="p_bg_color p-4">
-                <h5 class="text-center text-white">
-                  YEARBOOK INFORMATION: MR. HERNANDEZ
-                </h5>
-              </div>
-              <div class="shadow p-4">
-                <p>
-                  Senior portraits November 27th to December 1st. Students will
-                  receive a slip with their designated time (period) to go
-                  downstairs and take their photo.
-                </p>
-                <p>
-                  Baby pictures: Be on the lookout for an email to your DOE
-                  email and a QR code to.......
-                </p>
-                <button
-                  class="modal_btn mt-3"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#yerbook"
-                >
-                  Read More
-                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                </button>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="p_bg_color p-4">
-                <h5 class="text-center text-white">
-                    SENIOR EVENTS
-                </h5>
-              </div>
-              <div class="shadow p-4">
-               <ul>
-                <li>SENIOR PROM, June 7th, 2024, Terrace on the Park 6-10pm $135.00 (payments will be collected in the Spring)</li>
-                <li>Yearbook distribution - June 13 periods 7 and 8 in the auditorium </li>
-                <li>Senior Awards Night - June 14 from 5:30-7:00 pm in the...</li>
-               </ul>
-                <button
-                  class="modal_btn mt-3"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#event"
-                >
-                  Read More
-                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-------------------------------------------------
-          Student Information Section End
-        ------------------------------------------ -->
-
-      <!-- Modal Content -->
-      <div
-        class="modal fade"
-        id="meet"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
-      >
-        <div class="modal-dialog modal-xl modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-head py-3 p_bg_color">
-              <h5 class="fw-bold text-center text-white">
+    <section class="senior_container">
+      <div class="container">
+        <div class="row row-gap-4">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="p_bg_color p-4">
+              <h5 class="text-center text-white">
                 MEET THE 2023-2024 CANDIDATES FOR STUDENT GOVERNMENT
               </h5>
             </div>
-            <div class="modal-body">
+            <div class="shadow p-4">
               <h6 class="fw-bold">
                 Hillcrest High School Student Government Elections
               </h6>
               <p class="fw-bold">Meet the Candidates:</p>
-              <a href="https://sites.google.com/schools.nyc.gov/student-government-elections/home">2023-2024 Candidates for Student Government</a>
-              <a class="d-block mt-3" href="https://drive.google.com/file/d/1Rc2fOZsqSDuNYt87ENh8qVhePmuXgb69/view">Candidates Video</a>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="modal_btn"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              >
-                Close
+              <a href="https://sites.google.com/schools.nyc.gov/student-government-elections/home">2023-2024 Candidates
+                for Student Government</a>
+              <button class="modal_btn mt-3" type="button" data-bs-toggle="modal" data-bs-target="#meet">
+                Read More
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
               </button>
             </div>
           </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="due"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
-      >
-        <div class="modal-dialog modal-xl modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-head py-3 p_bg_color">
-              <h5 class="fw-bold text-center text-white">SENIOR DUES</h5>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="p_bg_color p-4">
+              <h5 class="text-center text-white">SENIOR DUES</h5>
             </div>
-            <div class="modal-body">
+            <div class="shadow p-4">
               <p>
                 <strong>Package 1—</strong> $140.00 money order payable to
                 HILLCREST HS:
               </p>
               <p>
                 Due date December 1st, 2023 Payment includes Yearbook, jersey,
-                senior picnic, and any other senior activities we host based on
-                funds we collect.
+                senior picnic, and any other senior activities we host based
+                on funds we collect.
               </p>
-              <p>
-                <strong>Package #2—</strong> $140.00 money order payable to
-                HILLCREST HS:
-              </p>
-              <p>
-                Due date March 28, 2023 Payment includes Cap, gown, tassel,
-                embroidered stole, diploma case, and 8 tickets for you and
-                guests to attend graduation at St. John’s University on June 21,
-                2024, at 7:00 pm.
-              </p>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="modal_btn"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              >
-                Close
+              <button class="modal_btn mt-3" type="button" data-bs-toggle="modal" data-bs-target="#due">
+                Read More
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
               </button>
             </div>
           </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="yerbook"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
-      >
-        <div class="modal-dialog modal-xl modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-head py-3 p_bg_color">
-              <h5 class="fw-bold text-center text-white">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="p_bg_color p-4">
+              <h5 class="text-center text-white">
                 YEARBOOK INFORMATION: MR. HERNANDEZ
               </h5>
             </div>
-            <div class="modal-body">
+            <div class="shadow p-4">
               <p>
                 Senior portraits November 27th to December 1st. Students will
                 receive a slip with their designated time (period) to go
                 downstairs and take their photo.
               </p>
               <p>
-                Baby pictures: Be on the lookout for an email to your DOE email
-                and a QR code to scan to upload your photos. You must include a
-                baby photo and a current photo of yourself.
+                Baby pictures: Be on the lookout for an email to your DOE
+                email and a QR code to.......
               </p>
-              <p class="fw-bold">
-                Superlatives will be by SLC. You will vote for a person for your
-                SLC to be in particular categories such as Best Dressed, Most
-                Athletic, Class Clown, etc.
-              </p>
+              <button class="modal_btn mt-3" type="button" data-bs-toggle="modal" data-bs-target="#yerbook">
+                Read More
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </button>
             </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="modal_btn"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              >
-                Close
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="p_bg_color p-4">
+              <h5 class="text-center text-white">
+                SENIOR EVENTS
+              </h5>
+            </div>
+            <div class="shadow p-4">
+              <ul>
+                <li>SENIOR PROM, June 7th, 2024, Terrace on the Park 6-10pm $135.00 (payments will be collected in the
+                  Spring)</li>
+                <li>Yearbook distribution - June 13 periods 7 and 8 in the auditorium </li>
+                <li>Senior Awards Night - June 14 from 5:30-7:00 pm in the...</li>
+              </ul>
+              <button class="modal_btn mt-3" type="button" data-bs-toggle="modal" data-bs-target="#event">
+                Read More
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div
-      class="modal fade"
-      id="event"
-      aria-hidden="true"
-      aria-labelledby="exampleModalToggleLabel"
-      tabindex="-1"
-    >
+    </section>
+    <!-------------------------------------------------
+          Student Information Section End
+        ------------------------------------------ -->
+
+    <!-- Modal Content -->
+    <div class="modal fade" id="meet" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-head py-3 p_bg_color">
             <h5 class="fw-bold text-center text-white">
-                SENIOR EVENTS
+              MEET THE 2023-2024 CANDIDATES FOR STUDENT GOVERNMENT
             </h5>
           </div>
           <div class="modal-body">
-          <ul>
-            <li>SENIOR PROM, June 7th, 2024, Terrace on the Park 6-10pm $135.00 (payments will be collected in the Spring)</li>
-            <li class="mt-2">Yearbook distribution - June 13 periods 7 and 8 in the auditorium </li>
-            <li class="mt-2">Senior Awards Night - June 14 from 5:30-7:00 pm in the auditorium</li>
-            <li class="mt-2">Graduation Rehearsal - June 18 from 1:00-3:00 pm in the auditorium</li>
-            <li class="mt-2">Cap, gown, tassel, stole, and graduation tickets distribution - June 20 from 2:00-5:00pm in the auditorium</li>
-            <li class="mt-2">Graduation - June 21 from 7:00-9:00pm at St. John's University</li>
-            <li class="mt-2">Senior Picnic - June 25 from 12:00-2:00 pm on the school's lawn</li>
-          </ul>
+            <h6 class="fw-bold">
+              Hillcrest High School Student Government Elections
+            </h6>
+            <p class="fw-bold">Meet the Candidates:</p>
+            <a href="https://sites.google.com/schools.nyc.gov/student-government-elections/home">2023-2024 Candidates
+              for Student Government</a>
+            <a class="d-block mt-3"
+              href="https://drive.google.com/file/d/1Rc2fOZsqSDuNYt87ENh8qVhePmuXgb69/view">Candidates Video</a>
           </div>
           <div class="modal-footer">
-            <button
-              type="button"
-              class="modal_btn"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
+            <button type="button" class="modal_btn" data-bs-dismiss="modal" aria-label="Close">
               Close
             </button>
           </div>
         </div>
       </div>
     </div>
-      <!-- Modal Content -->
-    </main>
-    <!---------------------
-         Footer Here
-         --------------------->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <a href="#"
-              ><img src="Assets/images/Main Logo.png" width="80px" alt=""
-            /></a>
+    <div class="modal fade" id="due" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-head py-3 p_bg_color">
+            <h5 class="fw-bold text-center text-white">SENIOR DUES</h5>
+          </div>
+          <div class="modal-body">
             <p>
-              Hillcrest is a STEAM (Science, Technology, Engineering, Arts, and
-              Mathematics) school that proudly offers its students a world-class
-              education with a dynamic faculty and challenging curriculum.
+              <strong>Package 1—</strong> $140.00 money order payable to
+              HILLCREST HS:
+            </p>
+            <p>
+              Due date December 1st, 2023 Payment includes Yearbook, jersey,
+              senior picnic, and any other senior activities we host based on
+              funds we collect.
+            </p>
+            <p>
+              <strong>Package #2—</strong> $140.00 money order payable to
+              HILLCREST HS:
+            </p>
+            <p>
+              Due date March 28, 2023 Payment includes Cap, gown, tassel,
+              embroidered stole, diploma case, and 8 tickets for you and
+              guests to attend graduation at St. John’s University on June 21,
+              2024, at 7:00 pm.
             </p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 Usefull_links">
-            <h4>Usefull Link</h4>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Calender</a>
-            <a href="#">School Newspaper</a>
-            <a href="#">Guidance Resources</a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 contact">
-            <h4>Contact Us</h4>
-            <p class="d-flex gap-2">
-              Phone:
-              <a class="mb-3" href="tel:(718) 658-5407">(718) 658-5407</a>
-            </p>
-
-            <p class="d-flex gap-2">
-              E-mail:
-              <a class="mb-3" href="mailto:hillcrest@gmail.com"
-                >hillcrest@gmail.com</a
-              >
-            </p>
-            <p class="d-flex gap-2 text-nowrap">
-              Address: <span>160-05 Highland Avenue QUEENS, NY 11432</span>
-            </p>
+          <div class="modal-footer">
+            <button type="button" class="modal_btn" data-bs-dismiss="modal" aria-label="Close">
+              Close
+            </button>
           </div>
         </div>
-        <hr />
-        <span
-          ><small class="d-flex gap-1 justify-content-end Copyright"
-            >Copyright © 2015-2023 <a href="#">eChalk Inc.</a></small
-          ></span
-        >
       </div>
-    </footer>
-    <!----------------------- 
+    </div>
+    <div class="modal fade" id="yerbook" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-head py-3 p_bg_color">
+            <h5 class="fw-bold text-center text-white">
+              YEARBOOK INFORMATION: MR. HERNANDEZ
+            </h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              Senior portraits November 27th to December 1st. Students will
+              receive a slip with their designated time (period) to go
+              downstairs and take their photo.
+            </p>
+            <p>
+              Baby pictures: Be on the lookout for an email to your DOE email
+              and a QR code to scan to upload your photos. You must include a
+              baby photo and a current photo of yourself.
+            </p>
+            <p class="fw-bold">
+              Superlatives will be by SLC. You will vote for a person for your
+              SLC to be in particular categories such as Best Dressed, Most
+              Athletic, Class Clown, etc.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="modal_btn" data-bs-dismiss="modal" aria-label="Close">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="event" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-head py-3 p_bg_color">
+            <h5 class="fw-bold text-center text-white">
+              SENIOR EVENTS
+            </h5>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>SENIOR PROM, June 7th, 2024, Terrace on the Park 6-10pm $135.00 (payments will be collected in the
+                Spring)</li>
+              <li class="mt-2">Yearbook distribution - June 13 periods 7 and 8 in the auditorium </li>
+              <li class="mt-2">Senior Awards Night - June 14 from 5:30-7:00 pm in the auditorium</li>
+              <li class="mt-2">Graduation Rehearsal - June 18 from 1:00-3:00 pm in the auditorium</li>
+              <li class="mt-2">Cap, gown, tassel, stole, and graduation tickets distribution - June 20 from 2:00-5:00pm
+                in the auditorium</li>
+              <li class="mt-2">Graduation - June 21 from 7:00-9:00pm at St. John's University</li>
+              <li class="mt-2">Senior Picnic - June 25 from 12:00-2:00 pm on the school's lawn</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="modal_btn" data-bs-dismiss="modal" aria-label="Close">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Content -->
+  </main>
+  <!---------------------
+         Footer Here
+         --------------------->
+  <footer class="inner__footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <a href="/"><img src="./Assets/images/Main Logo.png" width="80px" alt="" /></a>
+          <p>
+            Hillcrest is a STEAM (Science, Technology, Engineering, Arts, and
+            Mathematics) school that proudly offers its students a world-class
+            education with a dynamic faculty and challenging curriculum.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 Usefull_links">
+          <h4>Usefull Link</h4>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Calender</a>
+          <a href="#">School Newspaper</a>
+          <a href="#">Guidance Resources</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 contact">
+          <h4>Contact Us</h4>
+          <p class="d-flex gap-2">
+            Phone:
+            <a class="mb-3" href="tel:(718) 658-5407">(718) 658-5407</a>
+          </p>
+
+          <p class="d-flex gap-2">
+            E-mail:
+            <a class="mb-3" href="mailto:hillcrest@gmail.com">hillcrest@gmail.com</a>
+          </p>
+          <p class="d-flex gap-2 text-nowrap">
+            Address: <span>160-05 Highland Avenue QUEENS, NY 11432</span>
+          </p>
+        </div>
+      </div>
+      <hr />
+      <span><small class="d-flex gap-1 justify-content-center Copyright">Copyright © 2015-2023 || Created by - <a
+            href="#">ahnaf</a></small></span </div>
+  </footer>
+  <!----------------------- 
         Footer End
     ----------------------- -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./assets/JS/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./assets/JS/custom.js"></script>
 
-    <!-- fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/337002c4cc.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/337002c4cc.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

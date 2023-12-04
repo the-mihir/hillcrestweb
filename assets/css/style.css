@@ -811,6 +811,11 @@ select:focus {
 /*******************************************
  Footer Style Here 
  ********************************************/
+
+.inner__footer {
+  padding-top: 80px !important;
+}
+
 footer {
   background-image: url(../images/footershape.png),
     linear-gradient(180deg, #a3539f, #8c3d88);
@@ -819,6 +824,8 @@ footer {
   background-repeat: no-repeat;
   background-blend-mode: difference;
 }
+
+
 
 footer p {
   margin-bottom: 0;
